@@ -10,7 +10,7 @@
                             <path d="M12.0841 3.79713C11.947 3.79286 11.8138 3.84317 11.7139 3.93706C11.6139 4.03094 11.5553 4.16077 11.551 4.29785C11.5468 4.43501 11.5972 4.5682 11.6911 4.66823C11.7851 4.76818 11.9151 4.82673 12.0522 4.83085C13.6282 4.87966 15.1814 5.52744 16.3471 6.76955C17.4566 7.9516 18.0069 9.44982 18.0137 10.9506C18.0143 11.0877 18.0693 11.2189 18.1667 11.3154C18.264 11.4119 18.3958 11.4658 18.5329 11.4652C18.67 11.4646 18.8012 11.4096 18.8977 11.3122C18.9942 11.2148 19.0481 11.0831 19.0475 10.946C19.0396 9.19466 18.3927 7.43793 17.1012 6.06196C15.744 4.61601 13.9231 3.85415 12.0841 3.79723L12.0841 3.79713Z" fill="#FF9869" />
                             <path d="M12.0134 6.28897C11.8763 6.28448 11.743 6.33472 11.6429 6.42853C11.5429 6.52234 11.4842 6.65209 11.4798 6.78917C11.4753 6.92626 11.5255 7.05952 11.6193 7.15955C11.7131 7.25965 11.8428 7.31835 11.98 7.32276C12.9161 7.35293 13.837 7.73724 14.5301 8.47575C15.191 9.1799 15.517 10.07 15.5208 10.9632C15.5214 11.1004 15.5764 11.2318 15.6737 11.3284C15.7711 11.425 15.9029 11.479 16.0401 11.4784C16.1773 11.4779 16.3087 11.4229 16.4053 11.3255C16.5019 11.2281 16.5559 11.0963 16.5553 10.9591C16.5505 9.81523 16.1273 8.66638 15.2841 7.76803C14.4 6.82595 13.2122 6.32754 12.0135 6.28883L12.0134 6.28897Z" fill="#FF9869" />
                         </svg>
-                        <span class="hidden md:block"><?= $phone_number ?></span>
+                        <span class="hidden lg:block"><?= $phone_number ?></span>
                     </a>
 
                     <a href="mailto:<?= $admin_email ?>" class="w-fit flex gap-x-3 items-center font-merge text-xl leading-none text-primary">
@@ -18,12 +18,12 @@
                             <path d="M3.23665 1.70008L1.51165 0.204097C1.81155 0.0665932 2.13644 -0.00299936 2.4645 9.91303e-05H20.5359C20.864 -0.00299982 21.1889 0.0665932 21.4888 0.204097L19.7638 1.70008L11.8535 8.56799C11.7631 8.68309 11.6273 8.74994 11.4839 8.74994C11.3405 8.74994 11.2047 8.68309 11.1143 8.56799L3.23665 1.70008ZM22.7045 1.36858L21.3574 2.55007L12.9376 9.84298C12.5532 10.2258 12.0418 10.4418 11.5083 10.4465C10.9563 10.4376 10.4282 10.2129 10.0298 9.81748L1.64286 2.55018L0.295714 1.3687C0.106188 1.73197 0.00470952 2.1374 0 2.55018V14.45C0 15.1263 0.259615 15.775 0.72174 16.2532C1.18389 16.7314 1.81074 17 2.46429 17H20.5357C21.1893 17 21.8161 16.7314 22.2783 16.2532C22.7404 15.775 23 15.1263 23 14.45V2.55018C22.9953 2.1374 22.8938 1.73197 22.7043 1.3687L22.7045 1.36858Z" fill="#FF9869" />
                         </svg>
 
-                        <span class="hidden md:block"><?= $admin_email ?></span>
+                        <span class="hidden lg:block"><?= $admin_email ?></span>
                     </a>
                 </div>
 
                 <div class="w-fit flex flex-wrap gap-x-5">
-                    <p class="w-fit hidden md:flex items-center leading-none text-secondary font-merge text-xl gap-x-3">
+                    <p class="w-fit hidden lg:flex items-center leading-none text-secondary font-merge text-xl gap-x-3">
                         <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M11.5 0L15.1501 6.476L22.4371 7.9463L17.4061 13.419L18.2595 20.8037L11.5 17.71L4.74047 20.8037L5.59394 13.419L0.56285 7.9463L7.84985 6.476L11.5 0Z" fill="#FF9869" />
                         </svg>
@@ -39,7 +39,7 @@
                         <span class="leading-none text-secondary font-merge text-xl">Open 24/7</span>
                     </div>
 
-                    <p class="w-fit hidden md:flex items-center leading-none text-secondary font-merge text-xl gap-x-3">
+                    <p class="w-fit hidden lg:flex items-center leading-none text-secondary font-merge text-xl gap-x-3">
                         <svg width="19" height="23" viewBox="0 0 19 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M9.50034 0.479187C4.30445 0.479187 0.0820312 4.7016 0.0820312 9.8975C0.0820312 12.0928 1.58085 14.5376 3.3189 16.758C5.05708 18.9783 7.07154 20.9524 8.23112 22.0319C8.92996 22.6825 10.0384 22.6838 10.7383 22.0345C11.9015 20.9557 13.9234 18.9813 15.6684 16.7606C17.4133 14.54 18.9186 12.0943 18.9186 9.89762C18.9186 4.70173 14.6962 0.479316 9.50034 0.479316V0.479187ZM9.50034 4.96131C11.6025 4.96131 13.3168 6.67464 13.3168 8.77682C13.3168 10.879 11.6026 12.5923 9.50034 12.5923C7.3981 12.5923 5.68387 10.879 5.68387 8.77682C5.68387 6.67464 7.3981 4.96131 9.50034 4.96131Z" fill="#FE9869" />
                         </svg>
@@ -58,7 +58,7 @@
                     <?= renderImg('logo.png', 'logo') ?>
                 </a>
 
-                <ul class="w-fit hidden md:flex flex-wrap gap-x-5">
+                <ul class="w-fit hidden lg:flex flex-wrap gap-x-5">
                     <li><a href="#" class="text-white font-medium capitalize">Today's Deals</a></li>
                     <li><a href="#" class="text-white font-medium capitalize">Services</a></li>
                     <li><a href="#" class="text-white font-medium capitalize">About Us</a></li>
@@ -108,8 +108,8 @@
 
 <section class="features py-28 md:py-44">
     <div class="container">
-        <div class="flex flex-wrap lg:-mx-2 gap-y-10">
-            <div class="w-full md:w-1/5 px-10 lg:px-2">
+        <div class="flex flex-wrap justify-center lg:-mx-2 gap-y-10">
+            <div class="w-full md:w-1/3 lg:w-1/5 px-10 md:px-2">
                 <div class="group text-center flex flex-col items-center relative">
                     <div class="absolute bg-red text-white font-bold text-lg leading-none px-7 py-5 -top-10 md:-top-5 -left-0 -rotate-[20deg]">Hover Feature</div>
 
@@ -124,7 +124,7 @@
                 </div>
             </div>
 
-            <div class="w-full md:w-1/5 px-10 lg:px-2">
+            <div class="w-full md:w-1/3 lg:w-1/5 px-10 md:px-2">
                 <div class="group text-center flex flex-col items-center">
                     <div class="w-[140px] h-[140px] group-hover:bg-white rounded-full group-hover:shadow-lg duration-150 flex justify-center items-center">
                         <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -138,7 +138,7 @@
                 </div>
             </div>
 
-            <div class="w-full md:w-1/5 px-10 lg:px-2">
+            <div class="w-full md:w-1/3 lg:w-1/5 px-10 md:px-2">
                 <div class="group text-center flex flex-col items-center">
                     <div class="w-[140px] h-[140px] group-hover:bg-white rounded-full group-hover:shadow-lg duration-150 flex justify-center items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none">
@@ -153,7 +153,7 @@
                 </div>
             </div>
 
-            <div class="w-full md:w-1/5 px-10 lg:px-2">
+            <div class="w-full md:w-1/3 lg:w-1/5 px-10 md:px-2">
                 <div class="group text-center flex flex-col items-center">
                     <div class="w-[140px] h-[140px] group-hover:bg-white rounded-full group-hover:shadow-lg duration-150 flex justify-center items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none">
@@ -178,7 +178,7 @@
                 </div>
             </div>
 
-            <div class="w-full md:w-1/5 px-10 lg:px-2">
+            <div class="w-full md:w-1/3 lg:w-1/5 px-10 md:px-2">
                 <div class="group text-center flex flex-col items-center">
                     <div class="w-[140px] h-[140px] group-hover:bg-white rounded-full group-hover:shadow-lg duration-150 flex justify-center items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none">
@@ -197,8 +197,8 @@
 
 <section class="todays-offer">
     <div class="container">
-        <div class="flex flex-wrap gap-y-4 md:gap-y-7 lg:-mx-3">
-            <div class="w-full md:w-1/2 lg:px-3">
+        <div class="flex flex-wrap gap-y-4 md:gap-y-7 md:-mx-3 justify-center">
+            <div class="w-full lg:w-1/2 md:px-3">
                 <div class="h-full bg-primary rounded-10 flex flex-wrap overflow-clip text-white shadow-lg">
                     <div class="w-full md:w-5/12 grow py-10 px-3 md:p-14">
                         <p class="capitalize font-merge text-xl md:text-2xl leading-none">Save On your hot water</p>
@@ -214,7 +214,7 @@
                 </div>
             </div>
 
-            <div class="w-full md:w-1/2 lg:px-3">
+            <div class="w-full lg:w-1/2 md:px-3">
                 <div class="h-full bg-primary rounded-10 flex flex-wrap overflow-clip text-white shadow-lg">
                     <div class="w-full md:w-5/12 grow py-10 px-3 md:p-14">
                         <p class="capitalize font-merge text-xl md:text-2xl leading-none">When Your Book Online</p>
@@ -230,7 +230,7 @@
                 </div>
             </div>
 
-            <div class="w-full md:w-1/3 lg:px-3">
+            <div class="w-full md:w-1/2 lg:w-1/3 md:px-3">
                 <div class="h-full bg-primary rounded-10 overflow-clip text-white shadow-lg">
                     <div class="w-full grow py-10 px-3 md:p-14 text-center">
                         <p class="capitalize font-merge text-xl md:text-2xl leading-none">If You Have A Leak</p>
@@ -242,7 +242,7 @@
                 </div>
             </div>
 
-            <div class="w-full md:w-1/3 lg:px-3">
+            <div class="w-full md:w-1/2 lg:w-1/3 md:px-3">
                 <div class="h-full bg-primary rounded-10 overflow-clip text-white shadow-lg">
                     <div class="w-full grow py-10 px-3 md:p-14 text-center">
                         <p class="capitalize font-merge text-xl md:text-2xl leading-none">Upgrade Your Tap</p>
@@ -254,7 +254,7 @@
                 </div>
             </div>
 
-            <div class="w-full md:w-1/3 lg:px-3">
+            <div class="w-full md:w-2/3 lg:w-1/3 md:px-3">
                 <div class="h-full bg-primary rounded-10 overflow-clip text-white shadow-lg">
                     <div class="w-full grow py-10 px-3 md:p-14 text-center">
                         <p class="capitalize font-merge text-xl md:text-2xl leading-none">Get 10% Off</p>
@@ -271,7 +271,7 @@
 
 <section class="worked-with pt-28 pb-20 md:pt-48 md:pb-36">
     <div class="container">
-        <p class="capitalize text-4xl md:text-64 font-merge text-secondary text-center leading-none">We Have <span class="text-primary">Worked With</span></p>
+        <p class="capitalize text-4xl md:text-5xl lg:text-64 font-merge text-secondary text-center leading-none">We Have <span class="text-primary">Worked With</span></p>
     </div>
 
     <div class="pt-16 md:pt-28 partnersSlider">
@@ -284,7 +284,7 @@
 <?= renderImg('isolation-2.png', 'background', 'w-full') ?>
 <section class="service py-20 md:py-32 bg-secondary">
     <div class="container">
-        <p class="capitalize text-4xl md:text-64 font-merge text-white text-center leading-none">Fast south melbourne <span class="text-orange">Services</span></p>
+        <p class="capitalize text-4xl md:text-5xl lg:text-64 font-merge text-white text-center leading-none">Fast south melbourne <span class="text-orange">Services</span></p>
 
         <div class="flex flex-wrap gap-y-6 md:-mx-3 mt-16 md:mt-24" id="serviceSlider">
             <?php $services = [
@@ -325,11 +325,11 @@
     <?= renderImg('isolation-3.png', 'background', 'w-full') ?>
 
     <div class="container py-24 md:py-40">
-        <div class="rounded-10 bg-secondary text-white overflow-clip shadow-lg flex flex-wrap items-center justify-between">
-            <div class="w-full md:w-7/12 px-3 md:px-24 py-10">
-                <p class="text-4xl md:text-5xl font-merge leading-none">Professional Licensed Plumbers in South Melbourne</p>
+        <div class="rounded-10 bg-secondary text-white overflow-clip shadow-lg flex flex-wrap items-end lg:items-center justify-between">
+            <div class="w-full md:w-7/12 px-3 lg:px-24 py-10">
+                <p class="text-4xl lg:text-5xl font-merge leading-none">Professional Licensed Plumbers in South Melbourne</p>
 
-                <div class="description text-base md:text-lg py-5 md:py-14">
+                <div class="description text-base lg:text-lg py-5 lg:py-14">
                     <p>Plumbing and drain problems never happen at a good time. It can often seem like they only occur at the worst times or just before holidays and special occasions when your home will be full of friends and family.</p>
 
                     <p>At Southern Plumber, we understand the inconvenience these issues bring. Our team of skilled professionals is available round the clock, even on holidays, to provide efficient and reliable plumbing services.</p>
@@ -346,15 +346,15 @@
             </div>
         </div>
 
-        <div class="rounded-10 bg-secondary text-white overflow-clip shadow-lg flex flex-wrap items-center justify-between mt-7 md:mt-16">
+        <div class="rounded-10 bg-secondary text-white overflow-clip shadow-lg flex flex-wrap items-end lg:items-center justify-between mt-7 md:mt-16">
             <div class="w-full md:w-5/12 order-2 md:order-1">
                 <?= renderImg('specialist-plumber.png', 'lib') ?>
             </div>
 
-            <div class="w-full md:w-7/12 px-3 md:px-24 py-10 order-1 md:order-2">
-                <p class="text-4xl md:text-5xl font-merge leading-none">Local Specialist Plumbers in South Melbourne</p>
+            <div class="w-full md:w-7/12 px-3 lg:px-24 py-10 order-1 md:order-2">
+                <p class="text-4xl lg:text-5xl font-merge leading-none">Local Specialist Plumbers in South Melbourne</p>
 
-                <div class="description text-base md:text-lg py-5 md:py-14">
+                <div class="description text-base lg:text-lg py-5 lg:py-14">
                     <p>Whether you need a toilet repair or Leak repair or installation, or there’s a problem with your hot water, our qualified Southern Plumber Melbourne will fix your plumbing emergency today so you can breathe a sigh of relief.</p>
 
                     <p>We offer 24/7 emergency plumbing services so you can be sure your plumbing issues will be taken care of quickly, effectively, and at a reasonable price.</p>
@@ -371,15 +371,15 @@
 <?= renderImg('isolation-4.png', 'background', 'w-full') ?>
 
 <div class="container py-24 md:py-32">
-    <p class="capitalize text-5xl md:text-64 font-merge text-secondary text-center leading-none">How <span class="text-primary">it works</span></p>
+    <p class="capitalize text-4xl md:text-5xl lg:text-64 font-merge text-secondary text-center leading-none">How <span class="text-primary">it works</span></p>
 
-    <div class="flex flex-wrap items-center gap-y-16 relative mt-14 md:mt-32 md:-mx-3">
-        <div class="hidden md:block absolute bg-red text-white font-bold text-lg leading-none px-7 py-5 -top-16 -left-28 -rotate-[20deg] z-50">
+    <div class="flex flex-wrap justify-center items-center gap-y-16 relative mt-14 md:mt-32 md:-mx-3">
+        <div class="hidden md:block absolute bg-red text-white font-bold text-lg leading-none px-7 py-5 -top-16 lg:-left-28 -rotate-[20deg] z-50">
             unlike the previes hover animation, this box<br />
             stays to get attention to book or call
         </div>
 
-        <div class="w-full md:w-3/12 md:px-3">
+        <div class="w-full md:w-1/2 lg:w-3/12 md:px-3">
             <div class="bg-white shadow-lg rounded-10 py-10 px-8 flex flex-col items-center justify-between text-center gap-7 relative z-40">
                 <svg width="96" height="80" viewBox="0 0 96 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M72.5007 59.2999L57.2007 51.3998C55.0009 50.2999 52.4006 50.8998 50.9006 52.7999L45.3006 59.9997C39.8006 57.0996 35.7006 54.2999 30.9006 49.3997C25.8011 44.2998 23.0009 39.9997 20.2006 34.6997L27.3006 29.1997C29.2006 27.6997 29.8006 25.0998 28.7006 22.8995L20.8006 7.69952C19.4005 4.99969 16.0004 4.19952 13.5004 5.79944L3.80039 12.2994C1.50022 13.7994 0.300387 16.3994 0.400303 19.0996C0.60017 21.8998 0.900303 25.3998 1.60014 27.7996C4.4003 38.6996 11.2001 49.8996 20.8001 59.3996C30.3001 68.8996 41.6001 75.6996 52.4001 78.5996C54.8002 79.1995 58.3002 79.5996 61.1001 79.7994C63.8 79.9993 66.5002 78.6995 68.0002 76.2994L74.3004 66.4994C76.0009 64.0001 75.1009 60.6 72.5009 59.3002L72.5007 59.2999Z" fill="#2579ED" />
@@ -396,7 +396,7 @@
                     <a href="tel:<?= $phone_number ?>" class="w-fit flex items-center rounded-lg leading-none shadow-md bg-primary text-white font-bold h-[53px] px-5">Call Us</a>
                 </div>
 
-                <div class="h-[36px] w-[36px] bg-secondary flex items-center justify-center rounded-full absolute  md:-right-4 top-[96%] md:top-[45%] rotate-90 md:rotate-0">
+                <div class="h-[36px] w-[36px] bg-secondary flex items-center justify-center rounded-full absolute lg:-right-4 top-[96%] lg:top-[45%] rotate-90 lg:rotate-0">
                     <svg width="16" height="22" viewBox="0 0 16 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M3 3L13 11L3 19" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
@@ -404,10 +404,10 @@
             </div>
         </div>
 
-        <div class="w-full md:w-9/12 md:px-3">
-            <div class="flex flex-wrap md:-mx-3 gap-y-10">
-                <div class="w-full md:w-1/4 md:px-3">
-                    <div class="flex flex-col items-center justify-center gap-y-5 md:gap-y-10 text-center px-5">
+        <div class="w-full lg:w-9/12 lg:px-3">
+            <div class="flex flex-wrap md:-mx-1 lg:-mx-3 gap-y-10">
+                <div class="w-full md:w-1/4 md:px-1 lg:px-3">
+                    <div class="flex flex-col items-center justify-center gap-y-5 md:gap-y-10 text-center px-1 lg:px-5">
                         <div class="h-[100px] w-[100px] flex items-center justify-center">
                             <svg width="72" height="78" viewBox="0 0 72 78" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M16.0152 9.03072V1.12548C16.0152 0.514192 16.5309 0 17.1451 0H19.7057C20.3208 0 20.8374 0.513338 20.8374 1.12548V9.03072C20.8374 9.642 20.3199 10.1545 19.7057 10.1545H17.1451C16.5309 10.1545 16.0152 9.64112 16.0152 9.03072Z" fill="#002D85" />
@@ -417,14 +417,14 @@
                             </svg>
                         </div>
 
-                        <p class="text-2xl md:text-3xl font-merge text-secondary leading-none capitalize">We Assess The situation</p>
+                        <p class="text-2xl lg:text-3xl font-merge text-secondary leading-none capitalize">We Assess The situation</p>
 
-                        <p class="text-secondary text-base md:text-lg">Our insured plumber will assess the situation with you.</p>
+                        <p class="text-secondary text-base lg:text-lg">Our insured plumber will assess the situation with you.</p>
                     </div>
                 </div>
 
-                <div class="w-full md:w-1/4 md:px-3">
-                    <div class="flex flex-col items-center justify-center gap-y-10 text-center px-5">
+                <div class="w-full md:w-1/4 md:px-1 lg:px-3">
+                    <div class="flex flex-col items-center justify-center gap-y-5 md:gap-y-10 text-center px-1 lg:px-5">
                         <div class="h-[100px] w-[100px] flex items-center justify-center">
                             <svg width="100" height="60" viewBox="0 0 100 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M24.6489 45.1255C26.3923 45.1255 27.816 46.6791 27.816 48.3467C27.816 50.0713 26.3921 51.5227 24.6489 51.5227C22.9056 51.5227 21.4365 50.2075 21.4365 48.3467C21.4365 46.554 22.9056 45.1255 24.6489 45.1255Z" fill="#002D85" />
@@ -433,28 +433,28 @@
                             </svg>
                         </div>
 
-                        <p class="text-2xl md:text-3xl font-merge text-secondary leading-none capitalize">We Come To You</p>
+                        <p class="text-2xl lg:text-3xl font-merge text-secondary leading-none capitalize">We Come To You</p>
 
-                        <p class="text-secondary text-base md:text-lg">We’ll send our experienced plumbers to your property.</p>
+                        <p class="text-secondary text-base lg:text-lg">We’ll send our experienced plumbers to your property.</p>
                     </div>
                 </div>
 
-                <div class="w-full md:w-1/4 md:px-3">
-                    <div class="flex flex-col items-center justify-center gap-y-10 text-center px-5">
+                <div class="w-full md:w-1/4 md:px-1 lg:px-3">
+                    <div class="flex flex-col items-center justify-center gap-y-5 md:gap-y-10 text-center px-1 lg:px-5">
                         <div class="h-[100px] w-[100px] flex items-center justify-center">
                             <svg width="72" height="92" viewBox="0 0 72 92" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M56.5712 0H15.4288C11.3371 0 7.41242 1.61561 4.51887 4.49099C1.62533 7.36637 0 11.2667 0 15.3336V76.6664C0 80.7329 1.62564 84.6333 4.51887 87.509C7.41211 90.3847 11.3367 92 15.4288 92H56.5712C60.6629 92 64.5876 90.3844 67.4811 87.509C70.3747 84.6336 72 80.7333 72 76.6664V15.3336C72 11.2671 70.3744 7.36668 67.4811 4.49099C64.5879 1.6153 60.6633 0 56.5712 0ZM28.7312 37.7411C29.6151 37.7383 30.4616 38.0953 31.0743 38.7282C32.5091 39.9884 34.3954 40.6189 36.3048 40.4767C39.6649 40.4767 39.6649 38.9626 39.6649 38.465H39.6653C39.7127 37.983 39.5556 37.5035 39.2321 37.1417C38.7701 36.7652 38.1943 36.5551 37.5972 36.5456L34.5746 36.1271L34.5742 36.1267C32.5569 35.9374 30.6532 35.1117 29.1422 33.7704C27.6994 32.2603 26.9409 30.2298 27.0421 28.1499C27.0047 26.3011 27.6005 24.495 28.732 23.0272C29.8634 21.5594 31.4629 20.5172 33.2685 20.0716L33.2648 18.236H33.2644C33.3356 17.4454 33.7008 16.7095 34.2894 16.1728C34.8776 15.6357 35.6462 15.3367 36.4449 15.3335C37.2622 15.3494 38.0432 15.6717 38.6319 16.2351C39.2205 16.7989 39.5732 17.5623 39.6194 18.3734L39.6198 19.8172V19.8176C41.8289 20.1399 43.8823 21.1369 45.4959 22.671C46.1701 23.2708 46.5558 24.1273 46.5565 25.0265C46.5553 25.8774 46.215 26.6928 45.6096 27.2946C45.0045 27.896 44.1837 28.2346 43.3274 28.2354C42.472 28.2405 41.6503 27.9031 41.0481 27.299C39.8364 26.2576 38.2513 25.7497 36.6558 25.8914C34.9061 25.8914 33.861 26.6688 33.861 27.9714V27.971C33.8498 28.3471 33.9936 28.7109 34.2592 28.9788C34.7578 29.3781 35.3629 29.6241 36.0001 29.6868L38.9432 30.1029C40.9159 30.2574 42.7898 31.0261 44.298 32.2994C45.867 33.9026 46.6854 36.0876 46.5529 38.32C46.5513 40.2758 45.8542 42.1682 44.5853 43.6627C43.3165 45.1573 41.5567 46.1584 39.6173 46.489L39.6129 48.0478C39.5819 49.1555 38.968 50.1658 37.9957 50.7076C37.0233 51.2499 35.8357 51.2447 34.8686 50.6937C33.9011 50.1426 33.2965 49.1268 33.276 48.0191L33.2724 46.6699L33.2728 46.6695C30.656 46.3589 28.224 45.1714 26.3774 43.3034C25.772 42.6848 25.4361 41.8543 25.4429 40.9914C25.4501 40.1285 25.7993 39.3031 26.4148 38.6946C27.0303 38.0861 27.8629 37.7435 28.7312 37.7411ZM53.9998 76.666H18.0002C17.0817 76.666 16.2327 76.1788 15.7732 75.3882C15.3139 74.5976 15.3139 73.6233 15.7732 72.8327C16.2328 72.0421 17.0818 71.5549 18.0002 71.5549H53.9998C54.9183 71.5549 55.7673 72.0421 56.2268 72.8327C56.6861 73.6233 56.6861 74.5976 56.2268 75.3882C55.7672 76.1788 54.9182 76.666 53.9998 76.666ZM53.9998 66.4439H18.0002C17.0817 66.4439 16.2327 65.9567 15.7732 65.1661C15.3139 64.3755 15.3139 63.4011 15.7732 62.6106C16.2328 61.8199 17.0818 61.3328 18.0002 61.3328H53.9998C54.9183 61.3328 55.7673 61.8199 56.2268 62.6106C56.6861 63.4012 56.6861 64.3755 56.2268 65.1661C55.7672 65.9567 54.9182 66.4439 53.9998 66.4439Z" fill="#002D85" />
                             </svg>
                         </div>
 
-                        <p class="text-2xl md:text-3xl font-merge text-secondary leading-none capitalize">Upfront Quote</p>
+                        <p class="text-2xl lg:text-3xl font-merge text-secondary leading-none capitalize">Upfront Quote</p>
 
-                        <p class="text-secondary text-base md:text-lg">We’ll explain our services and provide an upfront quote.</p>
+                        <p class="text-secondary text-base lg:text-lg">We’ll explain our services and provide an upfront quote.</p>
                     </div>
                 </div>
 
-                <div class="w-full md:w-1/4 md:px-3">
-                    <div class="flex flex-col items-center justify-center gap-y-10 text-center px-5">
+                <div class="w-full md:w-1/4 md:px-1 lg:px-3">
+                    <div class="flex flex-col items-center justify-center gap-y-5 md:gap-y-10 text-center px-1 lg:px-5">
                         <div class="h-[100px] w-[100px] flex items-center justify-center">
                             <svg width="82" height="74" viewBox="0 0 82 74" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M15.7508 30H2.25027C0.989452 30 0 31.0017 0 32.278V68.722C0 69.9984 0.989521 71 2.25027 71H15.7508C17.0116 71 17.9997 69.9983 17.9997 68.722L18 32.278C18.0014 31.0016 17.0116 30 15.751 30H15.7508Z" fill="#002D85" />
@@ -462,9 +462,9 @@
                             </svg>
                         </div>
 
-                        <p class="text-2xl md:text-3xl font-merge text-secondary leading-none capitalize">Completion</p>
+                        <p class="text-2xl lg:text-3xl font-merge text-secondary leading-none capitalize">Completion</p>
 
-                        <p class="text-secondary text-base md:text-lg">We’ll complete all plumbing services.</p>
+                        <p class="text-secondary text-base lg:text-lg">We’ll complete all plumbing services.</p>
                     </div>
                 </div>
             </div>
@@ -473,10 +473,10 @@
 </div>
 
 <?= renderImg('isolation-5.png', 'background', 'w-full') ?>
-<section class="bg-primary py-24 md:py-40">
+<section class="bg-primary py-24 lg:py-40">
     <div class="container">
-        <div class="flex flex-wrap items-center gap-y-10">
-            <div class="w-full md:w-7/12">
+        <div class="flex flex-wrap justify-center items-center gap-y-10">
+            <div class="w-full lg:w-7/12">
                 <div class="bg-secondary rounded-10 text-center text-white overflow-clip">
                     <div class="px-3 md:px-20 pt-14 md:pt-20 pb-10">
                         <p class="capitalize text-4xl md:text-64 font-merge text-orange text-center leading-none">Why Choose<br /> <span class="text-white">southern plumber?</span></p>
@@ -495,7 +495,7 @@
                 </div>
             </div>
 
-            <div class="w-full md:w-5/12 flex flex-col gap-y-7 md:gap-y-14 px-3 md:px-16">
+            <div class="w-full md:w-10/12 lg:w-5/12 flex flex-col gap-y-7 md:gap-y-14 px-3 md:px-16">
                 <div class="w-full flex flex-wrap items-center text-light">
                     <div class="w-3/12 md:w-2/12">
                         <svg width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -583,37 +583,37 @@
 <?= renderImg('isolation-6.png', 'background', 'w-full') ?>
 
 <section class="container py-24 md:py-32">
-    <p class="capitalize text-4xl md:text-64 font-merge text-secondary text-center leading-none"><span class="text-primary">Community</span> Connection</p>
+    <p class="capitalize text-4xl md:text-5xl lg:text-64 font-merge text-secondary text-center leading-none"><span class="text-primary">Community</span> Connection</p>
 
-    <div class="flex flex-wrap justify-center md:justify-between items-center py-14 md:py-28 gap-y-4">
-        <div class="w-1/3 md:w-fit px-3">
+    <div class="flex flex-wrap justify-center md:justify-between items-center py-14 lg:py-28 gap-y-4">
+        <div class="w-1/3 md:w-1/5 lg:w-fit px-3">
             <?= renderImg('connection-1.png', 'lib') ?>
         </div>
 
-        <div class="w-1/3 md:w-fit px-3">
+        <div class="w-1/3 md:w-1/5 lg:w-fit px-3">
             <?= renderImg('connection-2.png', 'lib') ?>
         </div>
 
-        <div class="w-1/3 md:w-fit px-3">
+        <div class="w-1/3 md:w-1/5 lg:w-fit px-3">
             <?= renderImg('connection-3.png', 'lib') ?>
         </div>
 
-        <div class="w-1/3 md:w-fit px-3">
+        <div class="w-1/3 md:w-1/5 lg:w-fit px-3">
             <?= renderImg('connection-4.png', 'lib') ?>
         </div>
 
-        <div class="w-1/3 md:w-fit px-3">
+        <div class="w-1/3 md:w-1/5 lg:w-fit px-3">
             <?= renderImg('connection-5.png', 'lib') ?>
         </div>
     </div>
 
-    <div class="flex flex-wrap md:-mx-3 gap-y-4">
-        <div class="w-full md:w-1/2 lg:w-1/3 md:px-3">
-            <div class="h-full bg-white py-10 px-5 md:p-14 shadow-lg rounded-10">
+    <div class="flex flex-wrap justify-center md:-mx-1.5 lg:-mx-3 gap-y-4">
+        <div class="w-full md:w-1/2 lg:w-1/3 md:px-1.5 lg:px-3">
+            <div class="h-full bg-white py-10 px-5 lg:p-14 shadow-lg rounded-10">
                 <div class="flex flex-wrap justify-between items-center">
                     <div class="w-fit flex flex-wrap items-center gap-x-4">
                         <div class="w-[44px] h-[44px] bg-primary flex justify-center items-center text-white font-merge text-3xl uppercase rounded-full">j</div>
-                        <p class="text-primary text-3xl font-merge leading-none">John</p>
+                        <p class="text-primary text-2xl lg:text-3xl font-merge leading-none">John</p>
                     </div>
 
                     <div class="w-fit">
@@ -627,18 +627,18 @@
                     </div>
                 </div>
 
-                <p class="text-base md:text-lg text-secondary mt-10">
+                <p class="text-base lg:text-lg text-secondary mt-10">
                     “2 years ago I have multiple problems at my home and lucky I got connected with Ahmed’s team. They made a very good and perfect fix that still I am enjoying the fix with joy and <b>without any fear of happening again.</b> Very expert team members. Thank you, Ahmed. You saved my life, You are best.”
                 </p>
             </div>
         </div>
 
-        <div class="w-full md:w-1/2 lg:w-1/3 md:px-3">
-            <div class="h-full bg-white py-10 px-5 md:p-14 shadow-lg rounded-10">
+        <div class="w-full md:w-1/2 lg:w-1/3 md:px-1.5 lg:px-3">
+            <div class="h-full bg-white py-10 px-5 lg:p-14 shadow-lg rounded-10">
                 <div class="flex flex-wrap justify-between items-center">
                     <div class="w-fit flex flex-wrap items-center gap-x-4">
                         <div class="w-[44px] h-[44px] bg-primary flex justify-center items-center text-white font-merge text-3xl uppercase rounded-full">j</div>
-                        <p class="text-primary text-3xl font-merge leading-none">Julia</p>
+                        <p class="text-primary text-2xl lg:text-3xl font-merge leading-none">Julia</p>
                     </div>
 
                     <div class="w-fit">
@@ -652,19 +652,19 @@
                     </div>
                 </div>
 
-                <p class="text-base md:text-lg text-secondary mt-10">
+                <p class="text-base lg:text-lg text-secondary mt-10">
                     “I was scared by plumbing issues over a midnight and I started to look out for the repair, then in the <b>early morning at 5am</b> I found the On Call Plumber service number and I dialled. Result’s in outcome is too good that I have added number in my speed dial for all my other colleague. Quick solver.”
                 </p>
             </div>
 
         </div>
 
-        <div class="w-full md:w-1/2 lg:w-1/3 md:px-3">
-            <div class="h-full bg-white py-10 px-5 md:p-14 shadow-lg rounded-10">
+        <div class="w-full md:w-1/2 lg:w-1/3 md:px-1.5 lg:px-3">
+            <div class="h-full bg-white py-10 px-5 lg:p-14 shadow-lg rounded-10">
                 <div class="flex flex-wrap justify-between items-center">
                     <div class="w-fit flex flex-wrap items-center gap-x-4">
                         <div class="w-[44px] h-[44px] bg-primary flex justify-center items-center text-white font-merge text-3xl uppercase rounded-full">M</div>
-                        <p class="text-primary text-3xl font-merge leading-none">Michael</p>
+                        <p class="text-primary text-2xl lg:text-3xl font-merge leading-none">Michael</p>
                     </div>
 
                     <div class="w-fit">
@@ -678,7 +678,7 @@
                     </div>
                 </div>
 
-                <p class="text-base md:text-lg text-secondary mt-10">
+                <p class="text-base lg:text-lg text-secondary mt-10">
                     “The guys were great to deal with, very professional when discussing the job, <b>arrived on time</b>, very knowledgeable and didn't leave a mess! Highly recommended.”
                 </p>
             </div>
@@ -686,12 +686,12 @@
     </div>
 </section>
 
-<section class="pt-10 pb-24 md:py-32">
+<section class="pt-10 pb-24 lg:py-32">
     <div class="container">
-        <p class="capitalize text-4xl md:text-64 font-merge text-secondary text-center leading-none"><span class="text-primary">Brands</span> We Use & Trust</p>
+        <p class="capitalize text-4xl md:text-5xl lg:text-64 font-merge text-secondary text-center leading-none"><span class="text-primary">Brands</span> We Use & Trust</p>
     </div>
 
-    <div class="py-14 md:py-28 partnersSlider">
+    <div class="py-14 lg:py-28 partnersSlider">
         <?php for ($i = 1; $i < 10; $i++) : ?>
             <div><?= renderImg('brands' . $i . '.png', 'lib') ?></div>
         <?php endfor; ?>
@@ -699,9 +699,9 @@
 
     <div class="container">
         <div class="flex flex-wrap gap-y-7 lg:-mx-3">
-            <div class="w-full md:w-7/12 lg:px-3">
+            <div class="w-full lg:w-7/12 lg:px-3">
                 <div class="h-full bg-primary rounded-10 flex flex-wrap overflow-clip text-white shadow-lg">
-                    <div class="w-5/12 grow px-3 py-10 md:p-14">
+                    <div class="w-5/12 grow px-3 py-10 md:px-5 lg:p-14">
                         <div class="flex flex-col justify-between h-full">
                             <div class="w-full">
                                 <p class="text-4xl md:text-5xl leading-none font-merge">Fix Now, <br /><span class="text-orange">Pay Later</span></p>
@@ -720,8 +720,8 @@
                 </div>
             </div>
 
-            <div class="w-full md:w-5/12 lg:px-3">
-                <div class="h-full bg-secondary rounded-10 py-10 px-5 md:p-14 text-center flex flex-col items-center justify-between gap-y-5">
+            <div class="w-full lg:w-5/12 lg:px-3">
+                <div class="h-full bg-secondary rounded-10 py-10 px-5 md:p-14 text-center flex flex-col items-center justify-between gap-y-10 lg:gap-y-5">
                     <svg width="149" height="50" viewBox="0 0 149 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M72.4907 11.243C72.4907 11.6186 72.3823 11.9797 72.1657 12.3263C71.949 12.6586 71.6601 12.9113 71.299 13.0847C70.1868 12.3769 68.9662 12.023 67.6373 12.023C67.0884 12.023 66.6623 12.1313 66.359 12.348C66.0557 12.5502 65.904 12.8175 65.904 13.1497C65.904 13.3663 66.0051 13.5686 66.2073 13.7563C66.4095 13.9441 66.8501 14.1175 67.529 14.2763C68.829 14.5797 69.8762 14.9263 70.6707 15.3163C71.4651 15.6919 72.0645 16.1541 72.469 16.703C72.8734 17.2375 73.0757 17.9525 73.0757 18.848C73.0757 19.498 72.9312 20.1119 72.6423 20.6897C72.3534 21.253 71.9418 21.7513 71.4073 22.1847C70.8729 22.6036 70.2229 22.9358 69.4573 23.1813C68.6918 23.4125 67.8612 23.528 66.9657 23.528C66.0412 23.528 65.1384 23.4197 64.2573 23.203C63.3762 22.9863 62.6973 22.6686 62.2207 22.2497C61.744 21.8308 61.5057 21.383 61.5057 20.9063C61.5057 20.5308 61.5995 20.1552 61.7873 19.7797C61.9751 19.4041 62.3073 19.108 62.784 18.8913C62.9718 19.0936 63.3329 19.3175 63.8673 19.563C64.4018 19.8086 64.9579 19.9963 65.5357 20.1263C66.1134 20.2419 66.619 20.2997 67.0523 20.2997C67.5868 20.2997 68.0201 20.1913 68.3523 19.9747C68.699 19.758 68.8723 19.4763 68.8723 19.1297C68.8723 18.8263 68.699 18.5736 68.3523 18.3713C68.0201 18.1691 67.4568 17.9886 66.6623 17.8297C65.0301 17.4975 63.8023 16.9702 62.979 16.248C62.1557 15.5113 61.744 14.5075 61.744 13.2363C61.744 12.5575 61.8812 11.9291 62.1557 11.3513C62.4301 10.7736 62.8129 10.2752 63.304 9.85634C63.8095 9.43745 64.409 9.11967 65.1023 8.90301C65.8101 8.6719 66.5757 8.55634 67.399 8.55634C68.1357 8.55634 68.8145 8.61412 69.4357 8.72967C70.0712 8.84523 70.6129 9.01856 71.0607 9.24967C71.5229 9.46634 71.8768 9.74801 72.1223 10.0947C72.3679 10.4269 72.4907 10.8097 72.4907 11.243ZM84.9426 17.7213C84.9426 18.4436 84.827 19.1586 84.5959 19.8663C84.3792 20.5597 84.0181 21.1736 83.5126 21.708C83.007 22.2425 82.3859 22.6686 81.6492 22.9863C80.927 23.3041 80.1326 23.463 79.2659 23.463C78.587 23.463 77.9081 23.3547 77.2292 23.138C76.5648 22.9069 75.9509 22.5602 75.3876 22.098C74.8387 21.6213 74.3981 21.0147 74.0659 20.278C73.7337 19.5269 73.5676 18.6747 73.5676 17.7213C73.5676 16.9991 73.6759 16.2841 73.8926 15.5763C74.1237 14.8686 74.492 14.2402 74.9976 13.6913C75.5031 13.1425 76.1242 12.7019 76.8609 12.3697C77.5976 12.0375 78.3992 11.8713 79.2659 11.8713C80.1326 11.8713 80.927 12.0375 81.6492 12.3697C82.3859 12.7019 83.007 13.1425 83.5126 13.6913C84.0181 14.2402 84.3792 14.8686 84.5959 15.5763C84.827 16.2841 84.9426 16.9991 84.9426 17.7213ZM77.2942 17.6563C77.2942 18.5086 77.4748 19.1513 77.8359 19.5847C78.197 20.0036 78.6664 20.213 79.2442 20.213C79.8364 20.213 80.3059 20.0036 80.6526 19.5847C81.0137 19.1513 81.1942 18.5086 81.1942 17.6563C81.1942 16.8186 81.0137 16.1902 80.6526 15.7713C80.2914 15.338 79.822 15.1213 79.2442 15.1213C78.6664 15.1213 78.197 15.338 77.8359 15.7713C77.4748 16.1902 77.2942 16.8186 77.2942 17.6563ZM87.4198 12.023H87.5932C87.9398 12.023 88.2504 12.0952 88.5248 12.2397C88.7993 12.3697 89.0015 12.6152 89.1315 12.9763C89.2759 13.323 89.3482 13.7708 89.3482 14.3197V17.873C89.3482 18.5663 89.4637 19.1152 89.6948 19.5197C89.9259 19.9241 90.2871 20.1263 90.7782 20.1263C91.3704 20.1263 91.7821 19.8591 92.0132 19.3247C92.2587 18.7902 92.3815 18.0391 92.3815 17.0713V14.3197C92.3815 13.5686 92.5115 12.998 92.7715 12.608C93.0315 12.218 93.5154 12.023 94.2232 12.023H94.3098C95.0321 12.023 95.5159 12.1747 95.7615 12.478C96.0071 12.7813 96.1298 13.3013 96.1298 14.038V21.2963C96.1298 22.0475 95.9998 22.5747 95.7398 22.878C95.4943 23.1813 95.0104 23.333 94.2882 23.333C93.5804 23.333 93.0821 23.1886 92.7932 22.8997C92.5187 22.5963 92.3815 22.1125 92.3815 21.448V21.2097C92.1648 21.8452 91.7532 22.3797 91.1465 22.813C90.5543 23.2319 89.7743 23.4413 88.8065 23.4413C88.3732 23.4413 87.9615 23.3619 87.5715 23.203C87.1815 23.0297 86.8348 22.7769 86.5315 22.4447C86.2282 22.098 85.9898 21.6502 85.8165 21.1013C85.6576 20.5525 85.5782 19.9241 85.5782 19.2163V14.038C85.5782 13.3302 85.7154 12.8175 85.9898 12.4997C86.2643 12.1819 86.7409 12.023 87.4198 12.023ZM100.363 9.79134H100.601C101.771 9.79134 102.356 10.3836 102.356 11.568V12.6297H103.721C104.314 12.6297 104.761 12.7741 105.065 13.063C105.368 13.3375 105.52 13.7058 105.52 14.168C105.52 14.7602 105.361 15.1647 105.043 15.3813C104.725 15.598 104.205 15.7063 103.483 15.7063H102.356V18.653C102.356 19.2597 102.472 19.6786 102.703 19.9097C102.934 20.1263 103.274 20.2347 103.721 20.2347C103.808 20.2347 104.003 20.213 104.306 20.1697C104.61 20.1119 104.884 20.018 105.13 19.888C105.39 20.2347 105.52 20.7475 105.52 21.4263C105.52 21.7441 105.419 22.0619 105.216 22.3797C105.029 22.683 104.66 22.9358 104.111 23.138C103.577 23.3258 102.956 23.4197 102.248 23.4197C101.107 23.4197 100.219 23.0875 99.5831 22.423C98.9476 21.7441 98.6298 20.733 98.6298 19.3897V15.7063H98.0665C97.792 15.7063 97.532 15.6413 97.2865 15.5113C97.0553 15.3669 96.8892 15.1719 96.7881 14.9263C96.687 14.6808 96.6365 14.428 96.6365 14.168C96.6365 13.1425 97.1637 12.6297 98.2181 12.6297H98.6298V11.7847C98.6298 11.1347 98.7598 10.6436 99.0198 10.3113C99.2942 9.96467 99.742 9.79134 100.363 9.79134ZM108.106 7.86301H108.149C108.814 7.86301 109.29 8.00023 109.579 8.27467C109.868 8.54912 110.013 8.98967 110.013 9.59634V14.363C110.229 13.6986 110.605 13.1208 111.139 12.6297C111.688 12.1386 112.403 11.893 113.284 11.893C114.021 11.893 114.649 12.0663 115.169 12.413C115.704 12.7452 116.108 13.2219 116.383 13.843C116.671 14.4497 116.816 15.2152 116.816 16.1397V21.5997C116.816 22.2063 116.671 22.6469 116.383 22.9213C116.108 23.1958 115.639 23.333 114.974 23.333H114.801C113.631 23.333 113.046 22.7552 113.046 21.5997V17.2013C113.046 16.0891 112.576 15.533 111.638 15.533C111.146 15.533 110.749 15.7641 110.446 16.2263C110.157 16.6886 110.013 17.2952 110.013 18.0463V21.6213C110.013 22.228 109.868 22.6686 109.579 22.943C109.305 23.203 108.843 23.333 108.193 23.333H108.106C107.441 23.333 106.965 23.203 106.676 22.943C106.401 22.6686 106.264 22.228 106.264 21.6213V9.59634C106.264 8.98967 106.409 8.54912 106.698 8.27467C107.001 8.00023 107.47 7.86301 108.106 7.86301ZM127.659 15.728C127.659 16.1325 127.586 16.5369 127.442 16.9413C127.312 17.3313 127.081 17.6852 126.749 18.003C126.416 18.3063 125.99 18.5519 125.47 18.7397C124.95 18.9275 124.344 19.0213 123.65 19.0213C123.13 19.0213 122.61 18.978 122.09 18.8913C121.585 18.7902 121.173 18.6675 120.855 18.523C120.855 19.1152 121.144 19.5847 121.722 19.9313C122.314 20.278 123.029 20.4513 123.867 20.4513C124.979 20.4513 125.846 20.1552 126.467 19.563C126.741 19.6641 126.972 19.8663 127.16 20.1697C127.362 20.473 127.464 20.7908 127.464 21.123C127.464 21.4119 127.377 21.7008 127.204 21.9897C127.045 22.2641 126.756 22.5241 126.337 22.7697C125.932 23.0152 125.441 23.203 124.864 23.333C124.286 23.4486 123.773 23.5063 123.325 23.5063C122.473 23.5063 121.686 23.3908 120.964 23.1597C120.256 22.9286 119.635 22.5747 119.1 22.098C118.58 21.6213 118.176 21.0219 117.887 20.2997C117.598 19.5775 117.454 18.7541 117.454 17.8297C117.454 16.8908 117.598 16.053 117.887 15.3163C118.176 14.5652 118.573 13.9369 119.079 13.4313C119.599 12.9258 120.205 12.543 120.899 12.283C121.592 12.023 122.336 11.893 123.13 11.893C123.65 11.893 124.177 11.9652 124.712 12.1097C125.246 12.2397 125.73 12.4636 126.164 12.7813C126.597 13.0991 126.951 13.5108 127.225 14.0163C127.514 14.5075 127.659 15.078 127.659 15.728ZM121.115 16.573C121.289 16.703 121.599 16.8113 122.047 16.898C122.495 16.9702 122.899 17.0063 123.26 17.0063C123.679 17.0063 124.004 16.9125 124.235 16.7247C124.481 16.5369 124.604 16.2769 124.604 15.9447C124.604 15.6269 124.445 15.3597 124.127 15.143C123.824 14.9263 123.434 14.818 122.957 14.818C122.495 14.818 122.083 14.9841 121.722 15.3163C121.361 15.6341 121.159 16.053 121.115 16.573ZM132.07 14.0597C132.489 13.193 132.908 12.6225 133.327 12.348C133.746 12.0736 134.187 11.9363 134.649 11.9363C135.053 11.9363 135.414 12.0158 135.732 12.1747C136.05 12.3336 136.274 12.5575 136.404 12.8463C136.534 13.1352 136.599 13.4313 136.599 13.7347C136.599 14.5725 136.397 15.2658 135.992 15.8147C135.472 15.598 134.923 15.4897 134.345 15.4897C132.872 15.4897 132.135 16.5802 132.135 18.7613V21.1663C132.135 21.8886 131.998 22.4302 131.724 22.7913C131.464 23.1525 130.994 23.333 130.315 23.333H130.207C129.485 23.333 129.001 23.1886 128.755 22.8997C128.51 22.6108 128.387 22.1052 128.387 21.383V14.0163C128.387 13.323 128.524 12.8175 128.799 12.4997C129.073 12.1819 129.543 12.023 130.207 12.023C130.857 12.023 131.327 12.1891 131.615 12.5213C131.919 12.8536 132.07 13.3663 132.07 14.0597ZM138.952 12.023H138.995C139.66 12.023 140.137 12.1602 140.425 12.4347C140.714 12.7091 140.859 13.1497 140.859 13.7563V14.2763C141.018 13.8286 141.249 13.4241 141.552 13.063C141.855 12.7019 142.217 12.413 142.635 12.1963C143.054 11.9797 143.553 11.8713 144.13 11.8713C144.607 11.8713 145.055 11.9508 145.474 12.1097C145.893 12.2686 146.268 12.5213 146.6 12.868C146.933 13.2002 147.193 13.648 147.38 14.2113C147.568 14.7602 147.662 15.403 147.662 16.1397V21.5997C147.662 22.2063 147.518 22.6469 147.229 22.9213C146.954 23.1958 146.485 23.333 145.82 23.333H145.647C144.477 23.333 143.892 22.7552 143.892 21.5997V17.0713C143.892 15.988 143.423 15.4463 142.484 15.4463C142.253 15.4463 142.007 15.5186 141.747 15.663C141.502 15.8075 141.292 16.0819 141.119 16.4863C140.945 16.8763 140.859 17.3458 140.859 17.8947V21.6213C140.859 22.228 140.714 22.6686 140.425 22.943C140.151 23.203 139.689 23.333 139.039 23.333H138.952C138.288 23.333 137.811 23.203 137.522 22.943C137.248 22.6686 137.11 22.228 137.11 21.6213V13.7563C137.11 13.1497 137.255 12.7091 137.544 12.4347C137.847 12.1602 138.317 12.023 138.952 12.023Z" fill="#FF9869" />
                         <path d="M64.084 27.9183H68.0273C69.7751 27.9183 71.1257 28.3444 72.079 29.1967C73.0323 30.0489 73.509 31.255 73.509 32.815C73.509 34.3606 73.0323 35.5594 72.079 36.4117C71.1257 37.2639 69.7751 37.69 68.0273 37.69H66.2723V40.7883C66.2723 41.3806 66.1279 41.8139 65.839 42.0883C65.5501 42.3628 65.0807 42.5 64.4307 42.5H64.084C63.4195 42.5 62.9429 42.37 62.654 42.11C62.3795 41.8356 62.2423 41.395 62.2423 40.7883V29.6733C62.2423 29.0667 62.3868 28.6261 62.6757 28.3517C62.9645 28.0628 63.434 27.9183 64.084 27.9183ZM66.2723 34.57H67.8107C68.3451 34.57 68.7784 34.4328 69.1107 34.1583C69.4573 33.8839 69.6307 33.4867 69.6307 32.9667C69.6307 32.4322 69.4573 32.035 69.1107 31.775C68.7784 31.5006 68.3451 31.3633 67.8107 31.3633H66.2723V34.57ZM76.4154 27.03H76.4587C77.1231 27.03 77.5998 27.1672 77.8887 27.4417C78.1776 27.7161 78.322 28.1567 78.322 28.7633V40.7883C78.322 41.3806 78.1776 41.8139 77.8887 42.0883C77.5998 42.3628 77.1376 42.5 76.502 42.5H76.4154C75.7509 42.5 75.2743 42.37 74.9854 42.11C74.7109 41.8356 74.5737 41.395 74.5737 40.7883V28.7633C74.5737 28.1567 74.7181 27.7161 75.007 27.4417C75.2959 27.1672 75.7654 27.03 76.4154 27.03ZM81.2838 31.19H81.4571C81.8038 31.19 82.1143 31.2622 82.3888 31.4067C82.6632 31.5367 82.8654 31.7822 82.9954 32.1433C83.1399 32.49 83.2121 32.9378 83.2121 33.4867V37.04C83.2121 37.7333 83.3277 38.2822 83.5588 38.6867C83.7899 39.0911 84.151 39.2933 84.6421 39.2933C85.2343 39.2933 85.646 39.0261 85.8771 38.4917C86.1227 37.9572 86.2454 37.2061 86.2454 36.2383V33.4867C86.2454 32.7356 86.3754 32.165 86.6354 31.775C86.8954 31.385 87.3793 31.19 88.0871 31.19H88.1738C88.896 31.19 89.3799 31.3417 89.6254 31.645C89.871 31.9483 89.9938 32.4683 89.9938 33.205V40.4633C89.9938 41.2144 89.8638 41.7417 89.6038 42.045C89.3582 42.3483 88.8743 42.5 88.1521 42.5C87.4443 42.5 86.946 42.3556 86.6571 42.0667C86.3827 41.7633 86.2454 41.2794 86.2454 40.615V40.3767C86.0288 41.0122 85.6171 41.5467 85.0104 41.98C84.4182 42.3989 83.6382 42.6083 82.6704 42.6083C82.2371 42.6083 81.8254 42.5289 81.4354 42.37C81.0454 42.1967 80.6988 41.9439 80.3954 41.6117C80.0921 41.265 79.8538 40.8172 79.6804 40.2683C79.5215 39.7194 79.4421 39.0911 79.4421 38.3833V33.205C79.4421 32.4972 79.5793 31.9844 79.8538 31.6667C80.1282 31.3489 80.6049 31.19 81.2838 31.19ZM94.9204 33.335C95.0793 32.9306 95.3465 32.5333 95.7221 32.1433C96.0976 31.7533 96.4948 31.4789 96.9137 31.32C97.3471 31.1467 97.7371 31.06 98.0837 31.06C99.5571 31.06 100.525 31.8256 100.987 33.3567C101.204 32.8222 101.493 32.3744 101.854 32.0133C102.215 31.6378 102.605 31.385 103.024 31.255C103.457 31.125 103.854 31.06 104.215 31.06C104.981 31.06 105.638 31.2333 106.187 31.58C106.736 31.9267 107.155 32.4178 107.444 33.0533C107.747 33.6744 107.899 34.4472 107.899 35.3717V40.5067C107.899 41.2289 107.769 41.7417 107.509 42.045C107.263 42.3483 106.794 42.5 106.1 42.5H105.905C105.255 42.5 104.8 42.3556 104.54 42.0667C104.295 41.7633 104.172 41.2433 104.172 40.5067V36.1517C104.172 35.6894 104.071 35.3139 103.869 35.025C103.681 34.7217 103.385 34.57 102.98 34.57C102.692 34.57 102.432 34.6494 102.2 34.8083C101.984 34.9672 101.825 35.2272 101.724 35.5883C101.623 35.9494 101.572 36.39 101.572 36.91V40.5283C101.572 41.2361 101.435 41.7417 101.16 42.045C100.9 42.3483 100.438 42.5 99.7737 42.5H99.5571C98.8926 42.5 98.4304 42.3556 98.1704 42.0667C97.9104 41.7633 97.7804 41.2433 97.7804 40.5067V36.1517C97.7804 35.6606 97.6648 35.2778 97.4337 35.0033C97.2171 34.7144 96.8776 34.57 96.4154 34.57C95.9676 34.57 95.6354 34.6928 95.4187 34.9383C95.2021 35.1694 95.0648 35.4728 95.0071 35.8483C94.9637 36.2094 94.9421 36.5633 94.9421 36.91V40.2683C94.9421 40.7883 94.8698 41.2217 94.7254 41.5683C94.5809 41.915 94.3643 42.1606 94.0754 42.305C93.8009 42.435 93.4832 42.5 93.1221 42.5H92.9271C92.2193 42.5 91.7498 42.3556 91.5187 42.0667C91.2876 41.7633 91.1721 41.2361 91.1721 40.485V32.945C91.1721 32.3094 91.3093 31.8617 91.5837 31.6017C91.8582 31.3272 92.3132 31.19 92.9487 31.19C93.6998 31.19 94.2126 31.3417 94.4871 31.645C94.7759 31.9339 94.9204 32.4972 94.9204 33.335ZM110.708 27.03H110.816C111.452 27.03 111.914 27.1672 112.203 27.4417C112.492 27.7161 112.636 28.1567 112.636 28.7633V32.555C112.867 32.1794 113.243 31.8617 113.763 31.6017C114.283 31.3272 114.875 31.19 115.54 31.19C116.19 31.19 116.775 31.2983 117.295 31.515C117.829 31.7172 118.284 32.035 118.66 32.4683C119.035 32.9017 119.324 33.4578 119.526 34.1367C119.728 34.8011 119.83 35.5739 119.83 36.455C119.83 37.4228 119.671 38.3039 119.353 39.0983C119.05 39.8928 118.623 40.5572 118.075 41.0917C117.54 41.6261 116.926 42.0306 116.233 42.305C115.54 42.5794 114.832 42.7167 114.11 42.7167C112.723 42.7167 111.531 42.4422 110.535 41.8933C109.856 41.5178 109.408 41.1278 109.191 40.7233C108.989 40.3044 108.888 39.8206 108.888 39.2717V28.7633C108.888 28.1567 109.032 27.7161 109.321 27.4417C109.61 27.1672 110.072 27.03 110.708 27.03ZM112.636 36.4117V39.12C113.055 39.3656 113.539 39.4883 114.088 39.4883C114.333 39.4883 114.608 39.4306 114.911 39.315C115.229 39.185 115.503 38.925 115.735 38.535C115.966 38.1306 116.081 37.5817 116.081 36.8883C116.081 36.4117 116.023 35.9711 115.908 35.5667C115.792 35.1622 115.583 34.8589 115.28 34.6567C114.991 34.4544 114.658 34.3533 114.283 34.3533C113.806 34.3533 113.409 34.5339 113.091 34.895C112.788 35.2561 112.636 35.7617 112.636 36.4117ZM130.578 34.895C130.578 35.2994 130.506 35.7039 130.362 36.1083C130.232 36.4983 130.001 36.8522 129.668 37.17C129.336 37.4733 128.91 37.7189 128.39 37.9067C127.87 38.0944 127.263 38.1883 126.57 38.1883C126.05 38.1883 125.53 38.145 125.01 38.0583C124.505 37.9572 124.093 37.8344 123.775 37.69C123.775 38.2822 124.064 38.7517 124.642 39.0983C125.234 39.445 125.949 39.6183 126.787 39.6183C127.899 39.6183 128.766 39.3222 129.387 38.73C129.661 38.8311 129.892 39.0333 130.08 39.3367C130.282 39.64 130.383 39.9578 130.383 40.29C130.383 40.5789 130.297 40.8678 130.123 41.1567C129.965 41.4311 129.676 41.6911 129.257 41.9367C128.852 42.1822 128.361 42.37 127.783 42.5C127.206 42.6156 126.693 42.6733 126.245 42.6733C125.393 42.6733 124.606 42.5578 123.883 42.3267C123.176 42.0956 122.555 41.7417 122.02 41.265C121.5 40.7883 121.096 40.1889 120.807 39.4667C120.518 38.7444 120.373 37.9211 120.373 36.9967C120.373 36.0578 120.518 35.22 120.807 34.4833C121.096 33.7322 121.493 33.1039 121.998 32.5983C122.518 32.0928 123.125 31.71 123.818 31.45C124.512 31.19 125.256 31.06 126.05 31.06C126.57 31.06 127.097 31.1322 127.632 31.2767C128.166 31.4067 128.65 31.6306 129.083 31.9483C129.517 32.2661 129.871 32.6778 130.145 33.1833C130.434 33.6744 130.578 34.245 130.578 34.895ZM124.035 35.74C124.208 35.87 124.519 35.9783 124.967 36.065C125.415 36.1372 125.819 36.1733 126.18 36.1733C126.599 36.1733 126.924 36.0794 127.155 35.8917C127.401 35.7039 127.523 35.4439 127.523 35.1117C127.523 34.7939 127.365 34.5267 127.047 34.31C126.743 34.0933 126.353 33.985 125.877 33.985C125.415 33.985 125.003 34.1511 124.642 34.4833C124.281 34.8011 124.078 35.22 124.035 35.74ZM134.99 33.2267C135.409 32.36 135.828 31.7894 136.247 31.515C136.666 31.2406 137.106 31.1033 137.569 31.1033C137.973 31.1033 138.334 31.1828 138.652 31.3417C138.97 31.5006 139.194 31.7244 139.324 32.0133C139.454 32.3022 139.519 32.5983 139.519 32.9017C139.519 33.7394 139.316 34.4328 138.912 34.9817C138.392 34.765 137.843 34.6567 137.265 34.6567C135.792 34.6567 135.055 35.7472 135.055 37.9283V40.3333C135.055 41.0556 134.918 41.5972 134.644 41.9583C134.384 42.3194 133.914 42.5 133.235 42.5H133.127C132.405 42.5 131.921 42.3556 131.675 42.0667C131.43 41.7778 131.307 41.2722 131.307 40.55V33.1833C131.307 32.49 131.444 31.9844 131.719 31.6667C131.993 31.3489 132.463 31.19 133.127 31.19C133.777 31.19 134.246 31.3561 134.535 31.6883C134.839 32.0206 134.99 32.5333 134.99 33.2267Z" fill="white" />
@@ -751,41 +751,41 @@
 
 <?= renderImg('isolation-7.png', 'background', 'w-full') ?>
 
-<section class="bg-orange py-24 md:py-40 form" id="form">
+<section class="bg-orange py-24 lg:py-40 form" id="form">
     <div class="container">
         <div class="bg-primary flex flex-wrap rounded-10 overflow-clip items-center shadow-lg">
-            <div class="w-full md:w-fit md:flex-none order-2 md:order-1">
+            <div class="w-full md:w-fit md:flex-none order-2 lg:order-1">
                 <?= renderImg('form.png', 'lib') ?>
             </div>
 
-            <div class="w-full md:w-fit md:flex-1 text-center px-4 md:px-16 py-10 order-1 md:order-2">
-                <p class="capitalize text-4xl md:text-64 font-merge text-white text-center leading-none"><span class="text-orange">Book Online</span> Today & Claim $50 Off</p>
+            <div class="w-full md:w-fit md:flex-1 text-center px-4 lg:px-16 py-10 order-1 lg:order-2">
+                <p class="capitalize text-4xl md:text-5xl lg:text-64 font-merge text-white text-center leading-none"><span class="text-orange">Book Online</span> Today & Claim $50 Off</p>
 
-                <form action="./src/form" method="POST" class="mt-14 md:mt-20 flex flex-wrap lg:-mx-3 gap-y-4 md:gap-y-7">
-                    <div class="w-full md:w-1/2 lg:px-3">
+                <form action="./src/form" method="POST" class="mt-14 lg:mt-20 flex flex-wrap md:-mx-2 lg:-mx-3 gap-y-4 md:gap-y-7">
+                    <div class="w-full md:w-1/2 md:px-2 lg:px-3">
                         <input type="text" name="name" class="form-control" placeholder="Full Name" required />
                     </div>
 
-                    <div class="w-full md:w-1/2 lg:px-3">
+                    <div class="w-full md:w-1/2 md:px-2 lg:px-3">
                         <input type="email" name="email" class="form-control" placeholder="Email Address" required />
                     </div>
 
-                    <div class="w-full md:w-1/2 lg:px-3">
+                    <div class="w-full md:w-1/2 md:px-2 lg:px-3">
                         <input type="tel" name="phone" class="form-control" placeholder="Phone Number" required />
                     </div>
 
-                    <div class="w-full md:w-1/2 lg:px-3">
+                    <div class="w-full md:w-1/2 md:px-2 lg:px-3">
                         <input type="text" name="suburb" class="form-control" placeholder="Suburb" required />
                     </div>
 
-                    <div class="w-full lg:px-3">
+                    <div class="w-full md:px-2 lg:px-3">
                         <select name="service" class="form-control" required>
                             <option selected disabled>Select a service</option>
                             <option>24/7 Service</option>
                         </select>
                     </div>
 
-                    <div class="w-full lg:px-3">
+                    <div class="w-full md:px-2 lg:px-3">
                         <button type="submit" class="h-[53px] w-full bg-white hover:bg-light duration-150 rounded-md text-primary font-bold text-lg md:mt-7">Request A Quote</button>
                     </div>
                 </form>
@@ -794,8 +794,8 @@
     </div>
 
     <div class="container">
-        <div class="w-full lg:w-8/12 mx-auto mt-28 md:mt-52">
-            <p class="text-center text-white font-merge text-4xl md:text-64 leading-none capitalize">Frequently asked questions</p>
+        <div class="w-full lg:w-8/12 mx-auto mt-28 lg:mt-52">
+            <p class="text-center text-white font-merge text-4xl md:text-5xl lg:text-64 leading-none capitalize">Frequently asked questions</p>
 
             <?php $faqs = [
                 [
@@ -828,11 +828,11 @@
                     "answer" => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
                 ],
             ]; ?>
-            <div class="accordion flex flex-col gap-y-4 md:gap-y-7 mt-14 md:mt-24">
+            <div class="accordion flex flex-col gap-y-4 md:gap-y-7 mt-14 lg:mt-24">
                 <?php foreach ($faqs as $key => $faq) : ?>
                     <div class="accordion-card bg-white rounded-10 p-4 md:px-8 md:py-5">
                         <div class="accordion-head flex flex-wrap justify-between items-center">
-                            <p class="w-fit flex-1 leading-none text-base md:text-2xl text-primary font-bold"><?= $faq['question'] ?></p>
+                            <p class="w-fit flex-1 leading-none text-base md:text-lg lg:text-2xl text-primary font-bold"><?= $faq['question'] ?></p>
                             <button class="w-fit flex-none">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12" viewBox="0 0 18 12" fill="none">
                                     <path d="M15 3L9 9L3 3" stroke="#002D85" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
