@@ -2,7 +2,7 @@ section.banner {
     background: #2579ED imgUrl('banner.png') right bottom;
 }
 
-#partnersSlider {
+.partnersSlider {
     .slick-track {
         display: flex;
     }
@@ -13,5 +13,43 @@ section.banner {
         align-items: center;
         justify-content: center;
         margin: 0 50px;
+    }
+}
+
+section.form {
+    form {
+        .form-control {
+            background: #2579ED;
+            height: 53px;
+            border-radius: 8px;
+            border: 2px solid #F0F6FF;
+            width: 100%;
+            padding: 4px 16px;
+            color: #F0F6FF;
+            font-weight: 700;
+            font-size: 18px;
+
+            &::placeholder {
+                color: #F0F6FF;
+                opacity: 0.8;
+                font-weight: 400;
+            }
+
+            &:focus-visible {
+                outline: #F0F6FF auto 1px;
+            }
+        }
+    }
+}
+
+.accordion {
+    .accordion-card{
+        .accordion-body {
+            display: none;
+        }
+
+        .accordion-head {
+            cursor: pointer;
+        }
     }
 }

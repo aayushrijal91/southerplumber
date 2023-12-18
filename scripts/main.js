@@ -24,7 +24,7 @@ $('#return-to-top').on('click', () => {
     }, 500);
 });
 
-$('#partnersSlider').slick({
+$('.partnersSlider').slick({
     slidesToShow: 1,
     variableWidth: true,
     slidesToScroll: 1,
@@ -34,4 +34,13 @@ $('#partnersSlider').slick({
     autoplaySpeed: 0,
     cssEase: "linear",
     draggable: false,
+});
+
+$('.accordion-head').on('click', function(e) {
+    e.preventDefault();
+
+    $('.accordion-card').removeClass('active');
+    $(this).parents('.accordion-card').addClass('active');
+    $('.accordion-body').slideUp();
+    $(this).parents('.accordion-card').find('.accordion-body').slideToggle();
 })

@@ -11,6 +11,7 @@ module.exports = {
         current: 'currentColor',
         primary: '#2579ED',
         secondary: '#002D85',
+        tertiary: "#FF6969",
         orange: "#FF9869",
         red: "#F52525",
         pink: "#FF69D5",
