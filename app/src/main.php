@@ -30,12 +30,14 @@
                         5 Star Reviews
                     </p>
 
-                    <p class="w-fit flex items-center gap-x-3">
-                    <div class="w-fit relative">
-                        <div class="pulsating-circle"></div>
+                    <div class="w-fit flex items-center gap-x-7">
+                        <div class="w-fit h-[20px]">
+                            <div class="h-full relative">
+                                <div class="pulsating-circle top-0"></div>
+                            </div>
+                        </div>
+                        <span class="leading-none text-secondary font-merge text-xl">Open 24/7</span>
                     </div>
-                    <span class="leading-none text-secondary font-merge text-xl">Open 24/7</span>
-                    </p>
 
                     <p class="w-fit flex items-center leading-none text-secondary font-merge text-xl gap-x-3">
                         <svg width="19" height="23" viewBox="0 0 19 23" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -85,7 +87,14 @@
 <section class="banner bg-primary">
     <div class="container">
         <div class="w-full xl:w-5/12 py-32 pb-24">
-            <p class="font-extrabold text-xl text-white">Open now</p>
+            <div class="flex flex-wrap gap-x-7 items-center relative">
+                <div class="w-fit h-[20px]">
+                    <div class="h-full relative">
+                        <div class="pulsating-circle top-0"></div>
+                    </div>
+                </div>
+                <p class="font-extrabold text-xl text-white relative">Open now</p>
+            </div>
             <h1 class="text-64 font-merge text-white leading-none pt-4">Your Fast, Local <span class="text-orange">South Melbourne</span> Plumber Experts</h1>
 
             <div class="w-fit flex flex-wrap gap-3 mt-20">
@@ -96,3 +105,371 @@
     </div>
     <?= renderImg('isolation.png', 'background', 'w-full') ?>
 </section>
+
+<section class="features py-44">
+    <div class="container">
+        <div class="flex flex-wrap lg:-mx-2">
+            <div class="w-1/5 lg:px-2">
+                <div class="group text-center flex flex-col items-center relative">
+                    <div class="absolute bg-red text-white font-bold text-lg leading-none px-7 py-5 -top-5 -left-0 -rotate-[20deg]">Hover Feature</div>
+                    <div class="w-[140px] h-[140px] group-hover:bg-white rounded-full group-hover:shadow-lg duration-150 flex justify-center items-center">
+                        <svg width="94" height="88" viewBox="0 0 94 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M73.1461 66.6899L57.7666 58.7605C55.4843 57.5712 52.6072 58.1658 51.0193 60.2472L45.562 67.2845C40.4026 64.41 36.2351 61.734 31.2739 56.7781C26.2137 51.7231 23.4353 47.461 20.7563 42.406L27.7019 36.9546C29.7855 35.3688 30.3808 32.4943 29.1903 30.2144L21.2525 14.9503C20.558 13.5626 19.268 12.5714 17.7797 12.1749C16.2913 11.7783 14.7038 12.0758 13.4138 12.8686L3.59073 19.4102C1.2093 20.996 -0.179898 23.7715 0.0187954 26.5465C0.217109 29.1235 0.514909 32.7911 1.2093 35.368C4.08684 46.3708 11.0324 57.7693 20.657 67.3837C30.2816 76.9981 41.6922 83.9363 52.7059 86.8108C55.2856 87.5044 58.9571 87.8019 61.5367 88H62.0328C64.7117 88 67.2918 86.6123 68.7801 84.3328L75.1305 74.4211C75.9244 73.1324 76.2218 71.5466 75.8249 70.0598C75.5268 68.5734 74.5346 67.3838 73.1454 66.6901L73.1461 66.6899Z" fill="#002D85" />
+                            <path d="M92.9933 37.8623L73.3391 3.65452C70.4892 -1.21817 63.5121 -1.21817 60.6622 3.65452L41.0081 37.8623C38.1582 42.8343 41.6959 48.9997 47.2975 48.9997L86.6058 49C92.3056 49 95.8432 42.8345 92.9933 37.8626L92.9933 37.8623ZM64.1017 11.5104C64.1017 9.9194 65.3794 8.52714 67.0498 8.52714C68.6221 8.52714 69.9979 9.82004 69.9979 11.5104V27.421C69.9979 29.0119 68.7202 30.4042 67.0498 30.4042C65.4776 30.4042 64.1017 29.1113 64.1017 27.421V11.5104ZM67.0498 42.4366C64.7894 42.4366 62.9226 40.5471 62.9226 38.2602C62.9226 35.9729 64.7898 34.0838 67.0498 34.0838C69.3102 34.0838 71.177 35.9733 71.177 38.2602C71.1773 40.5475 69.3101 42.4366 67.0498 42.4366Z" fill="#2579ED" />
+                        </svg>
+                    </div>
+
+                    <p class="text-secondary group-hover:text-primary duration-150 font-merge text-3xl mt-10 capitalize">24/7 Emergency & General Plumbing</p>
+                </div>
+            </div>
+
+            <div class="w-1/5 lg:px-2">
+                <div class="group text-center flex flex-col items-center">
+                    <div class="w-[140px] h-[140px] group-hover:bg-white rounded-full group-hover:shadow-lg duration-150 flex justify-center items-center">
+                        <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M37.5305 14.8432H60.968C62.0467 14.8432 62.9211 13.9689 62.9211 12.8901V8.78847C62.9211 5.66022 60.3853 3.12439 57.2571 3.12439H41.2412C38.113 3.12439 35.5771 5.66022 35.5771 8.78847V12.8901C35.5771 13.9688 36.4515 14.8432 37.5303 14.8432H37.5305Z" fill="#002D85" />
+                            <path d="M80.5 46.0933C71.8708 46.0933 64.875 53.0887 64.875 61.7183C64.875 70.3478 71.8704 77.3433 80.5 77.3433C89.1296 77.3433 96.125 70.3478 96.125 61.7183C96.125 53.0887 89.1296 46.0933 80.5 46.0933ZM87.7406 59.1933L79.9281 67.0058C79.5466 67.3869 79.0469 67.5777 78.5469 67.5777C78.0469 67.5777 77.5473 67.3869 77.1658 67.0058L73.2595 63.0995C72.4968 62.3368 72.4968 61.1002 73.2595 60.3372C74.0225 59.5748 75.2588 59.5748 76.0218 60.3372L78.5469 62.8623L84.9783 56.4309C85.7413 55.6686 86.9776 55.6686 87.7406 56.4309C88.5033 57.1936 88.5033 58.4306 87.7406 59.1933Z" fill="#2579ED" />
+                            <path d="M29.7189 77.3432C28.6402 77.3432 27.7657 76.4685 27.7657 75.39C27.7657 74.3115 28.6401 73.4369 29.7189 73.4369H64.8848C63.5687 71.6875 62.5393 69.7109 61.8668 67.5775H29.7185C28.6397 67.5775 27.7653 66.7029 27.7653 65.6244C27.7653 64.5458 28.6397 63.6712 29.7185 63.6712H61.066C59.9133 52.1145 69.023 42.187 80.5002 42.187V19.5953C80.5002 14.8213 76.6161 10.937 71.8418 10.937H66.8282V12.8902C66.8282 16.121 64.1996 18.7495 60.9688 18.7495H37.5313C34.3005 18.7495 31.672 16.1209 31.672 12.8902V10.937H26.6583C21.8842 10.937 18 14.8211 18 19.5953V88.2162C18 92.9903 21.8841 96.8745 26.6583 96.8745H71.8417C76.6158 96.8745 80.5 92.9904 80.5 88.2162V81.2494C76.112 81.2494 72.0583 79.7946 68.7933 77.3424C68.6355 77.3434 30.3083 77.3431 29.7192 77.3431L29.7189 77.3432ZM50.0231 44.7915H48.4768C45.2685 44.7915 42.6582 42.1812 42.6582 38.9728C42.6582 36.1685 44.6523 33.8215 47.2968 33.2746V30.4686C47.2968 29.3898 48.1712 28.5154 49.25 28.5154C50.3288 28.5154 51.2032 29.3898 51.2032 30.4686V33.1542H53.8888C54.9672 33.1542 55.8419 34.0285 55.8419 35.1073C55.8419 36.1861 54.9673 37.0605 53.8888 37.0605H48.477C47.4227 37.0605 46.5646 37.9186 46.5646 38.9729C46.5646 40.0273 47.4227 40.8853 48.477 40.8853H50.0233C53.2316 40.8853 55.8419 43.4953 55.8419 46.704C55.8419 49.5083 53.8478 51.8553 51.2033 52.4023V55.2083C51.2033 56.287 50.3289 57.1614 49.2501 57.1614C48.1712 57.1614 47.2969 56.2871 47.2969 55.2083V52.5227H44.6113C43.5326 52.5227 42.6582 51.6483 42.6582 50.5695C42.6582 49.4908 43.5325 48.6163 44.6113 48.6163H50.0231C51.0774 48.6163 51.9355 47.7583 51.9355 46.7039C51.9355 45.6496 51.0774 44.7915 50.0231 44.7915ZM62.9223 87.109H29.7189C28.6402 87.109 27.7657 86.2343 27.7657 85.1558C27.7657 84.0773 28.6401 83.2027 29.7189 83.2027H62.9223C64.0007 83.2027 64.8754 84.0773 64.8754 85.1558C64.8754 86.2343 64.0008 87.109 62.9223 87.109Z" fill="#002D85" />
+                        </svg>
+                    </div>
+
+                    <p class="text-secondary group-hover:text-primary duration-150 font-merge text-3xl mt-10 capitalize">Set prices upon inspection</p>
+                </div>
+            </div>
+
+            <div class="w-1/5 lg:px-2">
+                <div class="group text-center flex flex-col items-center">
+                    <div class="w-[140px] h-[140px] group-hover:bg-white rounded-full group-hover:shadow-lg duration-150 flex justify-center items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M74.6191 61.9141L95.5927 70.3045C96.4434 70.6427 97.0004 71.4662 97.0004 72.3812V94.7622C97.0004 95.5052 96.6311 96.1992 96.0181 96.6152C95.4028 97.0316 94.6215 97.1166 93.9324 96.839L74.6192 89.1154L74.6191 61.9141Z" fill="#2579ED" />
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M25.3808 61.9141V89.1155L6.0676 96.8391C5.37847 97.1167 4.59715 97.0318 3.9819 96.6153C3.3683 96.1994 2.99902 95.5053 2.99902 94.7623V72.3814C2.99902 71.4662 3.55654 70.6428 4.40724 70.3046L25.3808 61.9141Z" fill="#2579ED" />
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M70.1428 64.8409C62.5759 74.8518 54.4645 81.8726 54.3906 81.9351C51.8685 84.1175 48.1308 84.1175 45.6087 81.9351C45.5348 81.8724 37.4237 74.8518 29.8564 64.8409V89.1154L49.1697 96.839C49.7022 97.0539 50.2975 97.0539 50.8306 96.839L70.1438 89.1154L70.1428 64.8409Z" fill="#2579ED" />
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M49.9989 3.00049C66.0568 3.00049 79.0953 16.0377 79.0953 32.0968C79.0953 41.1365 74.6613 50.4846 69.2522 58.4183C61.3471 70.0073 51.4629 78.5504 51.4629 78.5504C50.6238 79.2778 49.3749 79.2778 48.5353 78.5504C48.5353 78.5504 38.6523 70.0077 30.7474 58.4183C25.3383 50.4844 20.9043 41.1365 20.9043 32.0968C20.9043 16.039 33.9415 3.00049 49.9992 3.00049H49.9989ZM49.9989 20.905C43.8219 20.905 38.8086 25.9188 38.8086 32.0958C38.8086 38.2729 43.8219 43.2862 49.9989 43.2862C56.1766 43.2862 61.1898 38.2729 61.1898 32.0958C61.1898 25.9188 56.1766 20.905 49.9989 20.905Z" fill="#002D85" />
+                        </svg>
+                    </div>
+
+                    <p class="text-secondary group-hover:text-primary duration-150 font-merge text-3xl mt-10 capitalize">Local Southern Melbourne Team</p>
+                </div>
+            </div>
+
+            <div class="w-1/5 lg:px-2">
+                <div class="group text-center flex flex-col items-center">
+                    <div class="w-[140px] h-[140px] group-hover:bg-white rounded-full group-hover:shadow-lg duration-150 flex justify-center items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none">
+                            <g clip-path="url(#clip0_242_2208)">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M50.0021 26.97C40.7418 26.97 33.1885 34.5229 33.1885 43.7836C33.1885 53.0443 40.7414 60.5971 50.0021 60.5971C59.2624 60.5971 66.8156 53.0447 66.8156 43.7836C66.8156 34.5233 59.2628 26.97 50.0021 26.97Z" fill="#2579ED" />
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M68.9208 64.236C66.4833 62.6328 63.5894 61.3357 60.3833 60.4399C57.3715 62.3215 53.8135 63.4095 50.0011 63.4095C46.1881 63.4095 42.6305 62.3216 39.6189 60.4399C36.4128 61.3357 33.5189 62.6328 31.0814 64.236C26.0231 67.5628 22.8942 72.2165 22.8942 77.4097C22.8942 80.1291 22.8218 82.947 22.895 85.6539C22.9248 88.9115 26.1695 91.7113 31.4007 93.6074C36.1911 95.3433 42.7693 96.4172 50.0008 96.4172C57.2319 96.4172 63.8108 95.3433 68.6008 93.6074C73.8321 91.7113 77.0767 88.9115 77.1065 85.6539C77.1797 82.9466 77.1073 80.1291 77.1073 77.4097C77.1069 72.2167 73.9784 67.563 68.9201 64.236H68.9208Z" fill="#2579ED" />
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M60.4121 27.144C65.9466 30.6143 69.6273 36.7683 69.6273 43.7826C69.6273 45.8854 69.2955 47.9101 68.6833 49.8094C70.3991 50.4461 72.255 50.7944 74.1925 50.7944C82.9399 50.7944 90.0309 43.7033 90.0309 34.9559C90.0309 26.2085 82.9399 19.1174 74.1925 19.1174C68.2864 19.1174 63.1358 22.3508 60.4123 27.1437L60.4121 27.144Z" fill="#002D85" />
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M25.623 50.7946C27.6229 50.7946 29.5362 50.4226 31.2979 49.7464C30.6986 47.8656 30.374 45.8622 30.374 43.7827C30.374 36.8263 33.9931 30.7161 39.4512 27.2297C36.7411 22.3894 31.5645 19.1169 25.6227 19.1169C16.8753 19.1169 9.78418 26.208 9.78418 34.9554C9.78418 43.7032 16.8753 50.7939 25.6227 50.7939L25.623 50.7946Z" fill="#002D85" />
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M29.534 61.8853C31.7876 60.4031 34.2617 59.2327 36.8491 58.3515C34.9885 56.6706 33.4512 54.6383 32.3422 52.3593L32.3056 52.3733C30.1711 53.1931 27.9086 53.6085 25.6224 53.6085C21.9039 53.6085 18.4396 52.5198 15.5299 50.6438C12.6154 51.4864 9.9805 52.6822 7.74981 54.1495C2.95976 57.3001 -0.00292969 61.7105 -0.00292969 66.6344L-0.00252747 74.4028C0.025628 77.4186 2.91557 80.0221 7.63118 81.8172C10.9366 83.0758 15.225 83.9904 20.0553 84.3946C20.0275 82.0662 20.079 79.7381 20.079 77.4101C20.0794 70.7784 24.1892 65.401 29.5335 61.8857L29.534 61.8853Z" fill="#002D85" />
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M92.2476 54.1482C90.0707 52.7167 87.5094 51.5434 84.6786 50.7048C81.7895 52.5426 78.3611 53.6076 74.6836 53.6076C72.3974 53.6076 70.1353 53.1921 68.0004 52.3724L67.7035 52.2586C66.591 54.5781 65.036 56.6455 63.1484 58.3505C65.7363 59.2322 68.2099 60.4023 70.4636 61.8844C75.8082 65.3994 79.9181 70.7766 79.9181 77.4088C79.9181 79.7368 79.9695 82.0649 79.9418 84.3933C84.7724 83.9895 89.0608 83.0744 92.3659 81.8159C97.0815 80.0208 99.9718 77.4173 99.9996 74.4014L100 66.6331C100 61.7096 97.0373 57.2996 92.2472 54.1482L92.2476 54.1482Z" fill="#002D85" />
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M41.9066 25.8559L41.9259 25.8901C44.3887 24.7764 47.1221 24.1565 50.0012 24.1565C52.9752 24.1565 55.7948 24.8186 58.3207 26.0031L58.4032 25.8559C60.1641 22.7114 62.754 20.2032 65.8156 18.5473C65.3615 10.2065 58.455 3.58301 50.0008 3.58301C41.6001 3.58301 34.7286 10.1235 34.1963 18.3898C37.3879 20.0417 40.0888 22.6094 41.906 25.8553L41.9066 25.8559Z" fill="#002D85" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_242_2208">
+                                    <rect width="100" height="100" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+
+                    <p class="text-secondary group-hover:text-primary duration-150 font-merge text-3xl mt-10 capitalize">Family Owned Business</p>
+                </div>
+            </div>
+
+            <div class="w-1/5 lg:px-2">
+                <div class="group text-center flex flex-col items-center">
+                    <div class="w-[140px] h-[140px] group-hover:bg-white rounded-full group-hover:shadow-lg duration-150 flex justify-center items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none">
+                            <path d="M44.0864 72.6833C25.6012 58.3466 28.0602 28.093 47.678 16.2657C46.6618 15.1896 45.4287 13.7939 43.7857 14.0255L25.6443 15.3391C26.4702 17.4519 26.8843 19.7054 26.8638 21.9764C28.8953 22.1193 30.7902 23.0577 32.1441 24.5918C33.498 26.1258 34.2026 28.1329 34.1076 30.1839C34.0126 32.2353 33.1252 34.1673 31.6356 35.5673C30.1457 36.9673 28.1721 37.7236 26.1365 37.6748C24.1009 37.6257 22.1648 36.7756 20.7432 35.3058C19.3211 33.8357 18.5262 31.8633 18.528 29.8098C18.3871 27.9017 19.5032 26.4988 19.8648 24.8234C20.6551 21.7563 20.1081 18.4952 18.361 15.8613C17.6778 15.8627 15.8475 16.0792 15.1536 16.0971C14.3528 16.155 13.5997 16.5018 13.0321 17.0742C12.4645 17.6466 12.1206 18.4061 12.0632 19.2136L10.0085 48.1214C9.93958 49.0974 10.2928 50.0559 10.9774 50.7494L55.8639 96.0145C56.4914 96.6455 57.3416 97 58.2276 97C59.1137 97 59.9639 96.6455 60.5914 96.0145C62.3524 94.3341 77.7384 78.6545 79 77.4506C73.3119 79.9876 67.0382 80.8851 60.8747 80.0434C54.7112 79.2018 48.9005 76.6542 44.0858 72.6831L44.0864 72.6833Z" fill="#002D85" />
+                            <path d="M21.3509 25.8511C21.209 26.4395 21.3703 27.0637 21.7751 27.4935C22.18 27.9236 22.7688 28.0962 23.3251 27.9477C23.8811 27.7988 24.3222 27.3511 24.4858 26.7692C25.0994 24.3042 25.1648 21.722 24.6769 19.2258C24.1887 16.7297 23.1608 14.3874 21.6735 12.3831C19.6454 9.95622 16.9679 8.24077 13.997 7.46474C11.0261 6.68842 7.90213 6.88824 5.04112 8.03765C4.50615 8.25613 4.11924 8.75693 4.02306 9.35572C3.92684 9.95482 4.13588 10.5629 4.57292 10.9561C5.00997 11.3496 5.61032 11.4702 6.15308 11.2732C17.0058 7.50638 23.6651 17.7173 21.3511 25.8507L21.3509 25.8511Z" fill="#002D85" />
+                            <path d="M65.9795 17C38.5508 17.1153 26.7029 52.1805 47.7627 69.461C66.3581 84.9407 95.1266 71.1918 94.9996 46.4984C94.9934 38.677 91.9338 31.1776 86.4932 25.6471C81.0522 20.1168 73.6746 17.0073 65.9795 17ZM60.7704 33.6399C60.7496 35.5172 59.7522 37.2433 58.1492 38.1758C56.546 39.1084 54.5769 39.1084 52.9739 38.1758C51.3707 37.243 50.3735 35.5173 50.3528 33.6395C50.3736 31.7622 51.371 30.0365 52.9739 29.1039C54.5772 28.1711 56.5463 28.1711 58.1492 29.1039C59.7525 30.0365 60.7496 31.7625 60.7704 33.6399ZM55.4425 60.7324C54.686 61.4758 53.5999 61.7585 52.5851 61.4758C51.5703 61.1931 50.7775 60.3873 50.4994 59.3559C50.2213 58.3244 50.4994 57.2201 51.2311 56.4514L75.7865 31.4912C76.5428 30.7465 77.6295 30.4629 78.6452 30.7453C79.6609 31.0276 80.4544 31.8341 80.7322 32.8665C81.01 33.899 80.7309 35.0035 79.9983 35.7722L55.4425 60.7324ZM73.4203 57.0867C73.4414 55.2093 74.4388 53.4843 76.0417 52.5517C77.6447 51.6195 79.6135 51.6195 81.2164 52.5517C82.8193 53.4843 83.8168 55.2097 83.8378 57.0867C83.8168 58.9638 82.8193 60.6892 81.2164 61.6217C79.6135 62.554 77.6447 62.554 76.0417 61.6214C74.4388 60.6892 73.4413 58.9638 73.4203 57.0864V57.0867Z" fill="#2579ED" />
+                        </svg>
+                    </div>
+
+                    <p class="text-secondary group-hover:text-primary duration-150 font-merge text-3xl mt-10 capitalize">Discounts For Southern Locals</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="todays-offer">
+    <div class="container">
+        <div class="flex flex-wrap gap-y-7 lg:-mx-3">
+            <div class="w-full md:w-1/2 lg:px-3">
+                <div class="h-full bg-primary rounded-10 flex flex-wrap overflow-clip text-white shadow-lg">
+                    <div class="w-5/12 grow p-14">
+                        <p class="capitalize font-merge text-2xl leading-none">Save On your hot water</p>
+                        <p class="text-5xl leading-none font-merge py-5">Receive <br /><span class="text-orange">$100 Off</span></p>
+                        <p class="text-lg pt-5">
+                            Upgrade your hot water system today and Get $100 off. Experience improved efficiency, lower your energy bills!
+                        </p>
+                    </div>
+                    <div class="w-fit">
+                        <?= renderImg('cta1.png', 'lib', 'h-full') ?>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full md:w-1/2 lg:px-3">
+                <div class="h-full bg-primary rounded-10 flex flex-wrap overflow-clip text-white shadow-lg">
+                    <div class="w-5/12 grow p-14">
+                        <p class="capitalize font-merge text-2xl leading-none">When Your Book Online</p>
+                        <p class="text-5xl leading-none font-merge py-5">Receive <br /><span class="text-orange">$50 Off</span></p>
+                        <p class="text-lg pt-5">
+                            Book any plumbing service online and save $50. Don't wait, schedule your service today and start saving!
+                        </p>
+                    </div>
+                    <div class="w-fit">
+                        <?= renderImg('cta2.png', 'lib', 'h-full') ?>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full md:w-1/3 lg:px-3">
+                <div class="h-full bg-primary rounded-10 overflow-clip text-white shadow-lg">
+                    <div class="w-full grow p-14 text-center">
+                        <p class="capitalize font-merge text-2xl leading-none">If You Have A Leak</p>
+                        <p class="text-5xl leading-none font-merge pt-5"><span class="text-orange">Free</span> Inspection</p>
+                    </div>
+                    <div class="w-full">
+                        <?= renderImg('cta3.png', 'lib', 'w-full') ?>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full md:w-1/3 lg:px-3">
+                <div class="h-full bg-primary rounded-10 overflow-clip text-white shadow-lg">
+                    <div class="w-full grow p-14 text-center">
+                        <p class="capitalize font-merge text-2xl leading-none">Upgrade Your Tap</p>
+                        <p class="text-5xl leading-none font-merge pt-5">Receive <span class="text-orange">10% Off</span></p>
+                    </div>
+                    <div class="w-full">
+                        <?= renderImg('cta4.png', 'lib', 'w-full') ?>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full md:w-1/3 lg:px-3">
+                <div class="h-full bg-primary rounded-10 overflow-clip text-white shadow-lg">
+                    <div class="w-full grow p-14 text-center">
+                        <p class="capitalize font-merge text-2xl leading-none">Get 10% Off</p>
+                        <p class="text-5xl leading-none font-merge pt-5">Senior <span class="text-orange">Discounts</span></p>
+                    </div>
+                    <div class="w-full">
+                        <?= renderImg('cta5.png', 'lib', 'w-full') ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="worked-with pt-48 pb-36">
+    <div class="container">
+        <p class="capitalize text-64 font-merge text-secondary text-center leading-none">We Have <span class="text-primary">Worked With</span></p>
+    </div>
+
+    <div id="partnersSlider" class="pt-28">
+        <?php for ($i = 1; $i < 10; $i++) : ?>
+            <div><?= renderImg('partner' . $i . '.png', 'lib') ?></div>
+        <?php endfor; ?>
+    </div>
+</section>
+
+<?= renderImg('isolation-2.png', 'background', 'w-full') ?>
+<section class="service py-32 bg-secondary">
+    <div class="container">
+        <p class="capitalize text-64 font-merge text-white text-center leading-none">Fast south melbourne <span class="text-orange">Services</span></p>
+
+        <div class="flex flex-wrap gap-y-6 md:-mx-3 mt-24">
+            <?php $services = [
+                "24/7 Emergency Plumbing",
+                'Unblock Drains & Sinks',
+                "Hot Water Repairs, Installs & Upgrades",
+                "Gas Installation & Repairs",
+                "Tap Installation & Repairs",
+                "Toilet  Installation & Repairs",
+                "Leak<br /> Detection",
+                "Roofing &<br /> Guttering"
+            ];
+
+            foreach ($services as $key => $service) :
+            ?>
+                <div class="w-full md:w-1/2 lg:w-1/4 md:px-3">
+                    <div class="<?= ($key == 0) ? 'bg-primary' : 'bg-light' ?> rounded-10 overflow-clip h-full shadow-lg">
+                        <div class="w-full">
+                            <?= renderImg('service' . ($key + 1) . '.jpg', 'lib', 'w-full') ?>
+                        </div>
+                        <div class="flex flex-col items-center gap-y-10 grow py-14 px-10 text-center">
+                            <p class="text-3xl leading-none font-merge <?= ($key == 0) ? 'text-white' : 'text-secondary' ?> pt-5"><?= $service ?></p>
+                            <?php if ($key == 0) : ?>
+                                <a href="tel:<?= $phone_number ?>" class="w-fit flex items-center rounded-lg leading-none shadow-md bg-orange text-white font-bold h-[53px] px-7">Call Now</a>
+                            <?php else : ?>
+                                <a href="#form" class="w-fit flex items-center rounded-lg leading-none shadow-md bg-primary text-white font-bold h-[53px] px-7">Book Now</a>
+                            <?php endif; ?>
+                        </div>
+                    </div>
+                </div>
+
+            <?php endforeach; ?>
+        </div>
+    </div>
+</section>
+
+<section class="bg-primary">
+    <?= renderImg('isolation-3.png', 'background', 'w-full') ?>
+
+    <div class="container py-40">
+        <div class="rounded-10 bg-secondary text-white overflow-clip shadow-lg flex flex-wrap items-center justify-between">
+            <div class="w-7/12 px-24 py-10">
+                <p class="text-5xl font-merge leading-none">Professional Licensed Plumbers in South Melbourne</p>
+
+                <div class="description text-lg py-14">
+                    <p>Plumbing and drain problems never happen at a good time. It can often seem like they only occur at the worst times or just before holidays and special occasions when your home will be full of friends and family.</p>
+
+                    <p>At Southern Plumber, we understand the inconvenience these issues bring. Our team of skilled professionals is available round the clock, even on holidays, to provide efficient and reliable plumbing services.</p>
+                </div>
+
+                <div class="w-fit flex flex-wrap gap-3">
+                    <a href="#form" class="w-fit flex items-center rounded-lg leading-none shadow-md bg-orange text-white font-bold h-[53px] px-7">Book Online</a>
+                    <a href="tel:<?= $phone_number ?>" class="w-fit flex items-center rounded-lg leading-none shadow-md bg-primary text-white font-bold h-[53px] px-7">Call Us Today</a>
+                </div>
+            </div>
+
+            <div class="w-5/12">
+                <?= renderImg('professional-licensed.png', 'lib') ?>
+            </div>
+        </div>
+
+        <div class="rounded-10 bg-secondary text-white overflow-clip shadow-lg flex flex-wrap items-center justify-between mt-16">
+            <div class="w-5/12">
+                <?= renderImg('specialist-plumber.png', 'lib') ?>
+            </div>
+
+            <div class="w-7/12 px-24 py-10">
+                <p class="text-5xl font-merge leading-none">Local Specialist Plumbers in South Melbourne</p>
+
+                <div class="description text-lg py-14">
+                    <p>Whether you need a toilet repair or Leak repair or installation, or there’s a problem with your hot water, our qualified Southern Plumber Melbourne will fix your plumbing emergency today so you can breathe a sigh of relief.</p>
+
+                    <p>We offer 24/7 emergency plumbing services so you can be sure your plumbing issues will be taken care of quickly, effectively, and at a reasonable price.</p>
+                </div>
+
+                <div class="w-fit flex flex-wrap gap-3">
+                    <a href="#form" class="w-fit flex items-center rounded-lg leading-none shadow-md bg-orange text-white font-bold h-[53px] px-7">Book Online</a>
+                    <a href="tel:<?= $phone_number ?>" class="w-fit flex items-center rounded-lg leading-none shadow-md bg-primary text-white font-bold h-[53px] px-7">Call Us Today</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<?= renderImg('isolation-4.png', 'background', 'w-full') ?>
+
+<div class="container py-32">
+    <p class="capitalize text-64 font-merge text-secondary text-center leading-none">How <span class="text-primary">it works</span></p>
+
+    <div class="flex flex-wrap items-center relative mt-32 md:-mx-3">
+        <div class="absolute bg-red text-white font-bold text-lg leading-none px-7 py-5 -top-16 -left-28 -rotate-[20deg] z-50">
+            unlike the previes hover animation, this box<br />
+            stays to get attention to book or call
+        </div>
+
+        <div class="w-3/12 md:px-3">
+            <div class="bg-white shadow-lg rounded-10 py-10 px-8 flex flex-col items-center justify-between text-center gap-7 relative z-40">
+                <svg width="96" height="80" viewBox="0 0 96 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M72.5007 59.2999L57.2007 51.3998C55.0009 50.2999 52.4006 50.8998 50.9006 52.7999L45.3006 59.9997C39.8006 57.0996 35.7006 54.2999 30.9006 49.3997C25.8011 44.2998 23.0009 39.9997 20.2006 34.6997L27.3006 29.1997C29.2006 27.6997 29.8006 25.0998 28.7006 22.8995L20.8006 7.69952C19.4005 4.99969 16.0004 4.19952 13.5004 5.79944L3.80039 12.2994C1.50022 13.7994 0.300387 16.3994 0.400303 19.0996C0.60017 21.8998 0.900303 25.3998 1.60014 27.7996C4.4003 38.6996 11.2001 49.8996 20.8001 59.3996C30.3001 68.8996 41.6001 75.6996 52.4001 78.5996C54.8002 79.1995 58.3002 79.5996 61.1001 79.7994C63.8 79.9993 66.5002 78.6995 68.0002 76.2994L74.3004 66.4994C76.0009 64.0001 75.1009 60.6 72.5009 59.3002L72.5007 59.2999Z" fill="#2579ED" />
+                    <path d="M91.5008 0.199707H43.3008C41.1009 0.199707 39.3008 1.99987 39.3008 4.19971V6.79962L67.4008 18.5996L95.5008 6.79962V4.19971C95.5008 1.99987 93.7006 0.199707 91.5008 0.199707Z" fill="#2579ED" />
+                    <path d="M67.4008 25.0994C66.5007 25.0994 65.7009 24.8995 64.9008 24.5994L39.3008 13.8994V36.9994C39.3008 39.1992 41.1009 40.9994 43.3008 40.9994H91.6008C93.8006 40.9994 95.6008 39.1992 95.6008 36.9994L95.6005 13.8994L69.9005 24.5994C69.1003 24.8995 68.3005 25.0994 67.4005 25.0994H67.4008Z" fill="#2579ED" />
+                </svg>
+
+                <p class="text-3xl font-merge text-primary leading-none capitalize">Call us or use our online form</p>
+
+                <p class="text-secondary text-lg">Secure a time for one of our licensed technicians to come to you.</p>
+
+                <div class="w-fit flex flex-wrap gap-3">
+                    <a href="#form" class="w-fit flex items-center rounded-lg leading-none shadow-md bg-orange text-white font-bold h-[53px] px-5">Book Online</a>
+                    <a href="tel:<?= $phone_number ?>" class="w-fit flex items-center rounded-lg leading-none shadow-md bg-primary text-white font-bold h-[53px] px-5">Call Us</a>
+                </div>
+
+                <div class="h-[36px] w-[36px] bg-secondary flex items-center justify-center rounded-full absolute -right-4 top-[45%]">
+                    <svg width="16" height="22" viewBox="0 0 16 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3 3L13 11L3 19" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-9/12 md:px-3">
+            <div class="flex flex-wrap md:-mx-3">
+                <div class="w-1/4 md:px-3">
+                    <div class="flex flex-col items-center justify-center gap-y-10 text-center px-5">
+                        <div class="h-[100px] w-[100px] flex items-center justify-center">
+                            <svg width="72" height="78" viewBox="0 0 72 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.0152 9.03072V1.12548C16.0152 0.514192 16.5309 0 17.1451 0H19.7057C20.3208 0 20.8374 0.513338 20.8374 1.12548V9.03072C20.8374 9.642 20.3199 10.1545 19.7057 10.1545H17.1451C16.5309 10.1545 16.0152 9.64112 16.0152 9.03072Z" fill="#002D85" />
+                                <path d="M52.294 10.1545H54.8556C55.4688 10.1545 55.9846 9.64024 55.9846 9.03072V1.12548C55.9846 0.515083 55.4697 0 54.8556 0H52.294C51.679 0 51.1633 0.513338 51.1633 1.12548V9.03072C51.1633 9.642 51.6799 10.1545 52.294 10.1545Z" fill="#002D85" />
+                                <path d="M58.5168 6.33778H60.2477C66.729 6.33778 71.9998 11.5845 71.9998 18.0348L71.9995 20.4413H0.000304222V18.0351C0.000304222 11.5842 5.27197 6.33778 11.7526 6.33778H13.4835V9.03072C13.4835 11.0404 15.1262 12.6745 17.1444 12.6745H19.7051C21.7233 12.6745 23.3678 11.0395 23.3678 9.03072V6.33778H48.6334V9.03072C48.6334 11.0395 50.277 12.6745 52.2952 12.6745H54.8568C56.875 12.6745 58.5168 11.0395 58.5168 9.03072V6.33778Z" fill="#002D85" />
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.000759125 22.9602H72V66.3026C72 72.753 66.729 78 60.2477 78L11.7523 77.9997C5.27167 77.9997 0 72.7533 0 66.3023L0.000759125 22.9602ZM14 37.5C14 36.1193 15.1193 35 16.5 35H55.5C56.8807 35 58 36.1193 58 37.5C58 38.8807 56.8807 40 55.5 40H16.5C15.1193 40 14 38.8807 14 37.5ZM14 48.5C14 47.1193 15.1193 46 16.5 46H55.5C56.8807 46 58 47.1193 58 48.5C58 49.8807 56.8807 51 55.5 51H16.5C15.1193 51 14 49.8807 14 48.5ZM14 59.5C14 58.1193 15.1193 57 16.5 57H55.5C56.8807 57 58 58.1193 58 59.5C58 60.8807 56.8807 62 55.5 62H16.5C15.1193 62 14 60.8807 14 59.5Z" fill="#002D85" />
+                            </svg>
+                        </div>
+
+                        <p class="text-3xl font-merge text-secondary leading-none capitalize">We Assess The situation</p>
+
+                        <p class="text-secondary text-lg">Our insured plumber will assess the situation with you.</p>
+                    </div>
+                </div>
+
+                <div class="w-1/4 md:px-3">
+                    <div class="flex flex-col items-center justify-center gap-y-10 text-center px-5">
+                        <div class="h-[100px] w-[100px] flex items-center justify-center">
+                            <svg width="100" height="60" viewBox="0 0 100 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M24.6489 45.1255C26.3923 45.1255 27.816 46.6791 27.816 48.3467C27.816 50.0713 26.3921 51.5227 24.6489 51.5227C22.9056 51.5227 21.4365 50.2075 21.4365 48.3467C21.4365 46.554 22.9056 45.1255 24.6489 45.1255Z" fill="#002D85" />
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M76.6274 45.1255C78.3708 45.1255 79.7945 46.5769 79.7945 48.3014C79.7945 49.9691 78.3707 51.5227 76.6274 51.5227C74.9434 51.5227 73.415 49.9691 73.415 48.3014C73.415 46.5769 74.9434 45.1255 76.6274 45.1255Z" fill="#002D85" />
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M69.7447 5.78209C69.3071 2.77995 66.6928 0.455078 63.6013 0.455078L6.21448 0.455982C2.8253 0.455982 0 3.25256 0 6.67047V44.3833C0 47.8019 2.8259 50.5626 6.21448 50.5626H13.7077C14.752 55.6757 19.2573 59.5472 24.6453 59.5472C30.0041 59.5472 34.5051 55.6751 35.5471 50.5626H65.6963C66.7378 55.6757 71.2388 59.5472 76.5982 59.5472C81.9856 59.5472 86.4961 55.6751 87.5358 50.5626H95.2064C97.8262 50.5626 100.001 48.4269 100.001 45.7683V28.0833C100.001 25.4248 97.8262 23.2891 95.2064 23.2891H94.1057C93.9265 22.9272 93.7364 22.5401 93.5362 22.1325C92.2949 19.6051 90.6652 16.2868 88.8498 13.2747C87.7438 11.4392 86.5796 9.73042 85.2985 8.37416C84.0175 7.01794 82.5502 5.78209 80.4691 5.78209H69.7447ZM80.4698 10.3272H80.467C80.4677 10.3271 80.4688 10.3272 80.4698 10.3272ZM80.467 10.3272H69.8164V23.2889H89.0277C87.8294 20.8484 86.4496 18.1175 84.9442 15.6182C83.931 13.9371 82.8942 12.4499 81.9967 11.4988C81.2854 10.7457 80.7002 10.4505 80.5213 10.3603C80.4777 10.3383 80.4582 10.3285 80.467 10.3272ZM69.9939 48.289C69.9939 44.5926 72.9719 41.648 76.599 41.648C80.2843 41.7632 83.0614 44.0451 83.2042 48.289C83.2042 52.0411 80.2813 55.0004 76.599 55.0004C72.9725 55.0004 69.9939 52.0417 69.9939 48.289ZM18.0052 48.3242C18.0446 44.6079 20.9668 41.648 24.6462 41.648C28.742 41.8588 31.2513 44.4855 31.2513 48.2888C31.2513 52.041 28.2727 55.0003 24.6462 55.0003C20.9668 55.0003 18.0164 52.0711 18.0052 48.3242Z" fill="#002D85" />
+                            </svg>
+                        </div>
+
+                        <p class="text-3xl font-merge text-secondary leading-none capitalize">We Come To You</p>
+
+                        <p class="text-secondary text-lg">We’ll send our experienced plumbers to your property.</p>
+                    </div>
+                </div>
+
+                <div class="w-1/4 md:px-3">
+                    <div class="flex flex-col items-center justify-center gap-y-10 text-center px-5">
+                        <div class="h-[100px] w-[100px] flex items-center justify-center">
+                            <svg width="72" height="92" viewBox="0 0 72 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M56.5712 0H15.4288C11.3371 0 7.41242 1.61561 4.51887 4.49099C1.62533 7.36637 0 11.2667 0 15.3336V76.6664C0 80.7329 1.62564 84.6333 4.51887 87.509C7.41211 90.3847 11.3367 92 15.4288 92H56.5712C60.6629 92 64.5876 90.3844 67.4811 87.509C70.3747 84.6336 72 80.7333 72 76.6664V15.3336C72 11.2671 70.3744 7.36668 67.4811 4.49099C64.5879 1.6153 60.6633 0 56.5712 0ZM28.7312 37.7411C29.6151 37.7383 30.4616 38.0953 31.0743 38.7282C32.5091 39.9884 34.3954 40.6189 36.3048 40.4767C39.6649 40.4767 39.6649 38.9626 39.6649 38.465H39.6653C39.7127 37.983 39.5556 37.5035 39.2321 37.1417C38.7701 36.7652 38.1943 36.5551 37.5972 36.5456L34.5746 36.1271L34.5742 36.1267C32.5569 35.9374 30.6532 35.1117 29.1422 33.7704C27.6994 32.2603 26.9409 30.2298 27.0421 28.1499C27.0047 26.3011 27.6005 24.495 28.732 23.0272C29.8634 21.5594 31.4629 20.5172 33.2685 20.0716L33.2648 18.236H33.2644C33.3356 17.4454 33.7008 16.7095 34.2894 16.1728C34.8776 15.6357 35.6462 15.3367 36.4449 15.3335C37.2622 15.3494 38.0432 15.6717 38.6319 16.2351C39.2205 16.7989 39.5732 17.5623 39.6194 18.3734L39.6198 19.8172V19.8176C41.8289 20.1399 43.8823 21.1369 45.4959 22.671C46.1701 23.2708 46.5558 24.1273 46.5565 25.0265C46.5553 25.8774 46.215 26.6928 45.6096 27.2946C45.0045 27.896 44.1837 28.2346 43.3274 28.2354C42.472 28.2405 41.6503 27.9031 41.0481 27.299C39.8364 26.2576 38.2513 25.7497 36.6558 25.8914C34.9061 25.8914 33.861 26.6688 33.861 27.9714V27.971C33.8498 28.3471 33.9936 28.7109 34.2592 28.9788C34.7578 29.3781 35.3629 29.6241 36.0001 29.6868L38.9432 30.1029C40.9159 30.2574 42.7898 31.0261 44.298 32.2994C45.867 33.9026 46.6854 36.0876 46.5529 38.32C46.5513 40.2758 45.8542 42.1682 44.5853 43.6627C43.3165 45.1573 41.5567 46.1584 39.6173 46.489L39.6129 48.0478C39.5819 49.1555 38.968 50.1658 37.9957 50.7076C37.0233 51.2499 35.8357 51.2447 34.8686 50.6937C33.9011 50.1426 33.2965 49.1268 33.276 48.0191L33.2724 46.6699L33.2728 46.6695C30.656 46.3589 28.224 45.1714 26.3774 43.3034C25.772 42.6848 25.4361 41.8543 25.4429 40.9914C25.4501 40.1285 25.7993 39.3031 26.4148 38.6946C27.0303 38.0861 27.8629 37.7435 28.7312 37.7411ZM53.9998 76.666H18.0002C17.0817 76.666 16.2327 76.1788 15.7732 75.3882C15.3139 74.5976 15.3139 73.6233 15.7732 72.8327C16.2328 72.0421 17.0818 71.5549 18.0002 71.5549H53.9998C54.9183 71.5549 55.7673 72.0421 56.2268 72.8327C56.6861 73.6233 56.6861 74.5976 56.2268 75.3882C55.7672 76.1788 54.9182 76.666 53.9998 76.666ZM53.9998 66.4439H18.0002C17.0817 66.4439 16.2327 65.9567 15.7732 65.1661C15.3139 64.3755 15.3139 63.4011 15.7732 62.6106C16.2328 61.8199 17.0818 61.3328 18.0002 61.3328H53.9998C54.9183 61.3328 55.7673 61.8199 56.2268 62.6106C56.6861 63.4012 56.6861 64.3755 56.2268 65.1661C55.7672 65.9567 54.9182 66.4439 53.9998 66.4439Z" fill="#002D85" />
+                            </svg>
+                        </div>
+
+                        <p class="text-3xl font-merge text-secondary leading-none capitalize">Upfront Quote</p>
+
+                        <p class="text-secondary text-lg">We’ll explain our services and provide an upfront quote.</p>
+                    </div>
+                </div>
+
+                <div class="w-1/4 md:px-3">
+                    <div class="flex flex-col items-center justify-center gap-y-10 text-center px-5">
+                        <div class="h-[100px] w-[100px] flex items-center justify-center">
+                            <svg width="82" height="74" viewBox="0 0 82 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.7508 30H2.25027C0.989452 30 0 31.0017 0 32.278V68.722C0 69.9984 0.989521 71 2.25027 71H15.7508C17.0116 71 17.9997 69.9983 17.9997 68.722L18 32.278C18.0014 31.0016 17.0116 30 15.751 30H15.7508Z" fill="#002D85" />
+                                <path d="M81.9989 34.3288C81.9989 30.5665 79.4536 26.7593 74.5926 26.7593H52.5536C55.7021 21.0436 56.6279 13.0043 54.4391 7.12193C52.8314 2.79551 49.7591 0.27121 45.7831 0.0144932L45.7189 0.0092255C43.1318 -0.151852 40.8919 1.81518 40.6769 4.43686C40.1103 10.2709 37.5915 20.5901 33.9814 24.2538C30.9419 27.3384 28.34 28.6307 24.0273 30.7707C23.4031 31.0807 22.7212 31.4189 22 31.7835C22.0131 31.9418 22.021 32.1001 22.021 32.2626V68.8247C22.5417 69.0057 23.0556 69.1854 23.5605 69.3609C30.6779 71.8508 36.8295 74 46.2318 74H64.0494C68.9116 74 71.4557 70.1912 71.4557 66.4305C71.4557 65.3141 71.2328 64.1948 70.7908 63.1701C72.4102 62.8745 73.8278 62.0841 74.8782 60.8744C76.0701 59.4999 76.7272 57.6726 76.7272 55.7296C76.7272 54.617 76.5042 53.4978 76.0636 52.4758C79.9674 51.7919 82 48.3917 82 45.0298C82 43.0802 81.3154 41.1173 79.9806 39.6801C81.3132 38.2412 81.9992 36.2783 81.9992 34.3287L81.9989 34.3288Z" fill="#002D85" />
+                            </svg>
+                        </div>
+
+                        <p class="text-3xl font-merge text-secondary leading-none capitalize">Completion</p>
+
+                        <p class="text-secondary text-lg">We’ll complete all plumbing services.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<?= renderImg('isolation-5.png', 'background', 'w-full') ?>
+<section class="bg-primary py-40"></section>
+<?= renderImg('isolation-6.png', 'background', 'w-full') ?>
+

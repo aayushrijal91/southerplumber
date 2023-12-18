@@ -26,6 +26,9 @@ module.exports = {
       },
       fontSize: {
         64: '64px'
+      },
+      borderRadius: {
+        10: '10px'
       }
     },
   },

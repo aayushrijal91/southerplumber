@@ -23,3 +23,15 @@ $('#return-to-top').on('click', () => {
         scrollTop: 0
     }, 500);
 });
+
+$('#partnersSlider').slick({
+    slidesToShow: 1,
+    variableWidth: true,
+    slidesToScroll: 1,
+    arrows: false,
+    speed: 2000,
+    autoplay: true,
+    autoplaySpeed: 0,
+    cssEase: "linear",
+    draggable: false,
+})
