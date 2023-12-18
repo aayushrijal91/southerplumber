@@ -197,7 +197,7 @@
 
 <section class="todays-offer">
     <div class="container">
-        <div class="flex flex-wrap gap-y-4 md:gap-y-7 md:-mx-3 justify-center">
+        <div class="flex flex-wrap gap-y-4 md:gap-y-7 lg:-mx-3 justify-center">
             <div class="w-full lg:w-1/2 md:px-3">
                 <div class="h-full bg-primary rounded-10 flex flex-wrap overflow-clip text-white shadow-lg">
                     <div class="w-full md:w-5/12 grow py-10 px-3 md:p-14">
@@ -286,7 +286,7 @@
     <div class="container">
         <p class="capitalize text-4xl md:text-5xl lg:text-64 font-merge text-white text-center leading-none">Fast south melbourne <span class="text-orange">Services</span></p>
 
-        <div class="flex flex-wrap gap-y-6 md:-mx-3 mt-16 md:mt-24" id="serviceSlider">
+        <div class="flex flex-wrap gap-y-6 lg:-mx-3 mt-16 md:mt-24" id="serviceSlider">
             <?php $services = [
                 "24/7 Emergency Plumbing",
                 'Unblock Drains & Sinks',
@@ -373,7 +373,7 @@
 <div class="container py-24 md:py-32">
     <p class="capitalize text-4xl md:text-5xl lg:text-64 font-merge text-secondary text-center leading-none">How <span class="text-primary">it works</span></p>
 
-    <div class="flex flex-wrap justify-center items-center gap-y-16 relative mt-14 md:mt-32 md:-mx-3">
+    <div class="flex flex-wrap justify-center items-center gap-y-16 relative mt-14 md:mt-32 lg:-mx-3">
         <div class="hidden md:block absolute bg-red text-white font-bold text-lg leading-none px-7 py-5 -top-16 lg:-left-28 -rotate-[20deg] z-50">
             unlike the previes hover animation, this box<br />
             stays to get attention to book or call
@@ -405,7 +405,7 @@
         </div>
 
         <div class="w-full lg:w-9/12 lg:px-3">
-            <div class="flex flex-wrap md:-mx-1 lg:-mx-3 gap-y-10">
+            <div class="flex flex-wrap lg:-mx-3 gap-y-10">
                 <div class="w-full md:w-1/4 md:px-1 lg:px-3">
                     <div class="flex flex-col items-center justify-center gap-y-5 md:gap-y-10 text-center px-1 lg:px-5">
                         <div class="h-[100px] w-[100px] flex items-center justify-center">
@@ -607,7 +607,7 @@
         </div>
     </div>
 
-    <div class="flex flex-wrap justify-center md:-mx-1.5 lg:-mx-3 gap-y-4">
+    <div class="flex flex-wrap justify-center lg:-mx-3 gap-y-4">
         <div class="w-full md:w-1/2 lg:w-1/3 md:px-1.5 lg:px-3">
             <div class="h-full bg-white py-10 px-5 lg:p-14 shadow-lg rounded-10">
                 <div class="flex flex-wrap justify-between items-center">
@@ -761,7 +761,7 @@
             <div class="w-full md:w-fit md:flex-1 text-center px-4 lg:px-16 py-10 order-1 lg:order-2">
                 <p class="capitalize text-4xl md:text-5xl lg:text-64 font-merge text-white text-center leading-none"><span class="text-orange">Book Online</span> Today & Claim $50 Off</p>
 
-                <form action="./src/form" method="POST" class="mt-14 lg:mt-20 flex flex-wrap md:-mx-2 lg:-mx-3 gap-y-4 md:gap-y-7">
+                <form action="./src/form" method="POST" class="mt-14 lg:mt-20 flex flex-wrap lg:-mx-3 gap-y-4 md:gap-y-7">
                     <div class="w-full md:w-1/2 md:px-2 lg:px-3">
                         <input type="text" name="name" class="form-control" placeholder="Full Name" required />
                     </div>

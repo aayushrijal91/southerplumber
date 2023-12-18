@@ -38,7 +38,7 @@
 
 		<hr>
 
-		<div class="flex flex-wrap justify-center gap-y-2 -mx-1 md:-mx-2 py-14">
+		<div class="flex flex-wrap justify-center gap-y-2 -mx-1 lg:-mx-2 py-14">
 		<div class="w-1/2 md:w-1/3 lg:w-1/5 px-1 md:px-2">
 				<a href="" class="bg-primary flex justify-center items-center h-[80px] rounded-10 p-3"><?= renderImg('on-call.png', 'logo') ?></a>
 			</div>
