@@ -1,5 +1,9 @@
 section.banner {
     background: #2579ED imgUrl('banner.png') right bottom;
+
+    @media screen and (max-width: 540px) {
+        background: #2579ED;
+    }
 }
 
 .partnersSlider {
@@ -13,6 +17,21 @@ section.banner {
         align-items: center;
         justify-content: center;
         margin: 0 50px;
+
+        @media screen and (max-width: 540px) {
+            margin: 0 24px;
+        }
+    }
+}
+
+#serviceSlider {
+    .slick-track {
+        display: flex;
+    }
+
+    .slick-slide {
+        height: inherit;
+        margin: 0 6px;
     }
 }
 

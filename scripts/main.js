@@ -34,7 +34,28 @@ $('.partnersSlider').slick({
     autoplaySpeed: 0,
     cssEase: "linear",
     draggable: false,
+    responsive: [
+        {
+            breakpoint: 540,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                variableWidth: false,
+            }
+        }
+    ]
 });
+
+if($(window).width() < 540) {
+    $('#serviceSlider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        centerMode: true,
+        centerPadding: '20px',
+        autoplay: true,
+    })
+}
 
 $('.accordion-head').on('click', function(e) {
     e.preventDefault();
