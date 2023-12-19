@@ -59,13 +59,13 @@
                 </a>
 
                 <ul class="w-fit hidden xl:flex flex-wrap gap-x-5">
-                    <li><a href="#" class="text-white font-medium capitalize">Today's Deals</a></li>
-                    <li><a href="#" class="text-white font-medium capitalize">Services</a></li>
-                    <li><a href="#" class="text-white font-medium capitalize">About Us</a></li>
-                    <li><a href="#" class="text-white font-medium capitalize">How it works</a></li>
-                    <li><a href="#" class="text-white font-medium capitalize">why call us?</a></li>
-                    <li><a href="#" class="text-white font-medium capitalize">get a quote</a></li>
-                    <li><a href="#" class="text-white font-medium capitalize">FAQs</a></li>
+                    <li><a href="#todays-offer" class="text-white font-medium capitalize">Today's Deals</a></li>
+                    <li><a href="#services" class="text-white font-medium capitalize">Services</a></li>
+                    <li><a href="#about-us" class="text-white font-medium capitalize">About Us</a></li>
+                    <li><a href="#how-it-works" class="text-white font-medium capitalize">How it works</a></li>
+                    <li><a href="#why-us" class="text-white font-medium capitalize">why call us?</a></li>
+                    <li><a href="#form" class="text-white font-medium capitalize">get a quote</a></li>
+                    <li><a href="#faqs" class="text-white font-medium capitalize">FAQs</a></li>
                 </ul>
 
                 <div class="w-fit flex flex-wrap gap-3">
@@ -195,7 +195,7 @@
     </div>
 </section>
 
-<section class="todays-offer">
+<section class="todays-offer" id="todays-offer">
     <div class="container">
         <div class="flex flex-wrap gap-y-4 md:gap-y-7 lg:-mx-3 justify-center">
             <div class="w-full xl:w-1/2 md:px-3">
@@ -282,7 +282,7 @@
 </section>
 
 <?= renderImg('isolation-2.png', 'background', 'w-full') ?>
-<section class="service py-20 md:py-32 bg-secondary">
+<section class="service py-20 md:py-32 bg-secondary" id="services">
     <div class="container">
         <p class="capitalize text-4xl md:text-5xl lg:text-64 font-merge text-white text-center leading-none">Fast south melbourne <span class="text-orange">Services</span></p>
 
@@ -321,7 +321,7 @@
     </div>
 </section>
 
-<section class="bg-primary">
+<section class="bg-primary" id="about-us">
     <?= renderImg('isolation-3.png', 'background', 'w-full') ?>
 
     <div class="container py-24 md:py-40">
@@ -370,7 +370,7 @@
 </section>
 <?= renderImg('isolation-4.png', 'background', 'w-full') ?>
 
-<div class="container py-24 md:py-32">
+<div class="container py-24 md:py-32" id="how-it-works">
     <p class="capitalize text-4xl md:text-5xl lg:text-64 font-merge text-secondary text-center leading-none">How <span class="text-primary">it works</span></p>
 
     <div class="flex flex-wrap justify-center items-center gap-y-16 relative mt-14 md:mt-32 lg:-mx-3">
@@ -473,7 +473,7 @@
 </div>
 
 <?= renderImg('isolation-5.png', 'background', 'w-full') ?>
-<section class="bg-primary py-24 lg:py-40">
+<section class="bg-primary py-24 lg:py-40" id="why-us">
     <div class="container">
         <div class="flex flex-wrap justify-center items-center gap-y-10">
             <div class="w-full lg:w-7/12">
@@ -751,8 +751,8 @@
 
 <?= renderImg('isolation-7.png', 'background', 'w-full') ?>
 
-<section class="bg-orange py-24 lg:py-40 form" id="form">
-    <div class="container">
+<section class="bg-orange py-24 lg:py-40 form">
+    <div class="container" id="form">
         <div class="bg-primary flex flex-wrap rounded-10 overflow-clip items-center shadow-lg">
             <div class="w-full xl:w-fit xl:flex-none order-2 xl:order-1">
                 <?= renderImg('form.png', 'lib') ?>
@@ -781,7 +781,14 @@
                     <div class="w-full md:px-2 lg:px-3">
                         <select name="service" class="form-control" required>
                             <option selected disabled>Select a service</option>
-                            <option>24/7 Service</option>
+                            <option>24/7 Emergency Plumbing</option>
+                            <option>Unblock Drains & Sinks</option>
+                            <option>Hot Water Repairs, Installs & Upgrades</option>
+                            <option>Gas Installation & Repairs</option>
+                            <option>Tap installation & Repairs</option>
+                            <option>Toilet Installation & Repairs</option>
+                            <option>Leak Detection</option>
+                            <option>Roof & Guttering</option>
                         </select>
                     </div>
 
@@ -793,41 +800,42 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container" id="faqs">
         <div class="w-full lg:w-11/12 xl:w-8/12 mx-auto mt-28 xl:mt-52">
             <p class="text-center text-white font-merge text-4xl md:text-5xl lg:text-64 leading-none capitalize">Frequently asked questions</p>
 
             <?php $faqs = [
                 [
                     "question" => "How do I know if I have a leak?",
-                    "answer" => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                    "answer" => "If you notice unexplained increases in your water bill, damp or discolored patches on walls or ceilings, or hear the sound of running water when no fixtures are in use, you may have a leak. Our professional licensed plumbers in South Melbourne specialize in leak detection and can promptly assess and address any potential issues.",
                 ],
 
                 [
                     "question" => "Do you operate after business hours?",
-                    "answer" => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                    "answer" => "Yes, we understand that plumbing emergencies don't follow a 9-to-5 schedule. Our 24/7 emergency plumbing services are available round the clock, including holidays. Whether it's a burst pipe or a clogged drain, our local Southern Melbourne team is ready to provide efficient and reliable solutions whenever you need them.",
                 ],
 
                 [
                     "question" => "Are you fully licensed plumbing company?",
-                    "answer" => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                    "answer" => "Absolutely. We are a family-owned business with licensed, insured, and qualified plumbers in South Melbourne. Our team has extensive experience in various plumbing services, including hot water systems repairs and installation, blocked drains, leak detection, and emergency commercial and residential plumbing services.",
                 ],
 
                 [
                     "question" => "What are the plumbing services that you provide?",
-                    "answer" => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                    "answer" => "We offer a comprehensive range of plumbing services, including but not limited to toilet repairs, leak detection and repair, hot water systems repairs and installation, and emergency plumbing services. Our Southern Melbourne team of professional plumbers is equipped to handle any plumbing issue promptly and effectively.",
                 ],
 
                 [
                     "question" => "Do your services include Warranties or Guarantees?",
-                    "answer" => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                    "answer" => "Yes, we stand by the quality of our work. We offer warranties and guarantees on our plumbing services. Our set prices, determined upon inspection, ensure transparency and fairness, and we are committed to customer satisfaction. You can trust our local specialist plumbers in South Melbourne to deliver reliable and lasting solutions.",
                 ],
 
                 [
                     "question" => "Aside from pipe leaks, what else could cause a high water bill?",
-                    "answer" => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                    "answer" => "Several factors could contribute to a high water bill, such as a faul",
                 ],
             ]; ?>
+
             <div class="accordion flex flex-col gap-y-4 md:gap-y-7 mt-14 lg:mt-24">
                 <?php foreach ($faqs as $key => $faq) : ?>
                     <div class="accordion-card bg-white rounded-10 p-4 md:px-8 md:py-5">

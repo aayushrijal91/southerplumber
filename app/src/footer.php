@@ -7,13 +7,13 @@
 
 			<div class="w-full lg:w-8/12">
 				<ul class="w-full md:w-fit flex flex-wrap flex-col md:flex-row gap-x-5 justify-center pb-14 text-center">
-					<li><a href="#" class="text-white text-lg md:text-2xl font-merge capitalize">Today's Deals</a></li>
-					<li><a href="#" class="text-white text-lg md:text-2xl font-merge capitalize">Services</a></li>
-					<li><a href="#" class="text-white text-lg md:text-2xl font-merge capitalize">About Us</a></li>
-					<li><a href="#" class="text-white text-lg md:text-2xl font-merge capitalize">How it works</a></li>
-					<li><a href="#" class="text-white text-lg md:text-2xl font-merge capitalize">why call us?</a></li>
-					<li><a href="#" class="text-white text-lg md:text-2xl font-merge capitalize">get a quote</a></li>
-					<li><a href="#" class="text-white text-lg md:text-2xl font-merge capitalize">FAQs</a></li>
+					<li><a href="#todays-offer" class="text-white text-lg md:text-2xl font-merge capitalize">Today's Deals</a></li>
+					<li><a href="#services" class="text-white text-lg md:text-2xl font-merge capitalize">Services</a></li>
+					<li><a href="#about-us" class="text-white text-lg md:text-2xl font-merge capitalize">About Us</a></li>
+					<li><a href="#how-it-works" class="text-white text-lg md:text-2xl font-merge capitalize">How it works</a></li>
+					<li><a href="#why-us" class="text-white text-lg md:text-2xl font-merge capitalize">why call us?</a></li>
+					<li><a href="#form" class="text-white text-lg md:text-2xl font-merge capitalize">get a quote</a></li>
+					<li><a href="#faqs" class="text-white text-lg md:text-2xl font-merge capitalize">FAQs</a></li>
 				</ul>
 
 				<div class="flex flex-wrap justify-center xl:justify-start items-center gap-x-10 gap-y-5">
@@ -40,7 +40,7 @@
 
 		<div class="flex flex-wrap justify-center gap-y-2 -mx-1 lg:-mx-2 py-14">
 			<div class="w-1/2 md:w-1/3 lg:w-1/5 px-1 md:px-2">
-				<a href="" class="bg-primary flex justify-center items-center h-[80px] rounded-10 p-3"><?= renderImg('on-call.png', 'logo') ?></a>
+				<div class="bg-primary flex justify-center items-center h-[80px] rounded-10 p-3"><?= renderImg('on-call.png', 'logo') ?></div>
 			</div>
 
 			<div class="w-1/2 md:w-1/3 lg:w-1/5 px-1 md:px-2">

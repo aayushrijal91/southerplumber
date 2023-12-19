@@ -2,7 +2,7 @@
 include __DIR__ . '/env.php';
 
 $site = "Southern Plumber";
-$phone_number = "03 9888 9797";
+$phone_number = "03 9888 8898";
 $admin_email = 'info@oncallplumber.com.au';
 // $admin_email = 'arijal@aiims.com.au';
 $bcc_email = "";
