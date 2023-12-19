@@ -111,8 +111,6 @@
         <div class="flex flex-wrap justify-center lg:-mx-2 gap-y-10">
             <div class="w-full md:w-1/3 lg:w-1/5 px-10 md:px-2">
                 <div class="group text-center flex flex-col items-center relative">
-                    <div class="absolute bg-red text-white font-bold text-lg leading-none px-7 py-5 -top-10 md:-top-5 -left-0 -rotate-[20deg]">Hover Feature</div>
-
                     <div class="w-[140px] h-[140px] group-hover:bg-white rounded-full group-hover:shadow-lg duration-150 flex justify-center items-center">
                         <svg width="94" height="88" viewBox="0 0 94 88" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M73.1461 66.6899L57.7666 58.7605C55.4843 57.5712 52.6072 58.1658 51.0193 60.2472L45.562 67.2845C40.4026 64.41 36.2351 61.734 31.2739 56.7781C26.2137 51.7231 23.4353 47.461 20.7563 42.406L27.7019 36.9546C29.7855 35.3688 30.3808 32.4943 29.1903 30.2144L21.2525 14.9503C20.558 13.5626 19.268 12.5714 17.7797 12.1749C16.2913 11.7783 14.7038 12.0758 13.4138 12.8686L3.59073 19.4102C1.2093 20.996 -0.179898 23.7715 0.0187954 26.5465C0.217109 29.1235 0.514909 32.7911 1.2093 35.368C4.08684 46.3708 11.0324 57.7693 20.657 67.3837C30.2816 76.9981 41.6922 83.9363 52.7059 86.8108C55.2856 87.5044 58.9571 87.8019 61.5367 88H62.0328C64.7117 88 67.2918 86.6123 68.7801 84.3328L75.1305 74.4211C75.9244 73.1324 76.2218 71.5466 75.8249 70.0598C75.5268 68.5734 74.5346 67.3838 73.1454 66.6901L73.1461 66.6899Z" fill="#002D85" />
@@ -374,11 +372,6 @@
     <p class="capitalize text-4xl md:text-5xl lg:text-64 font-merge text-secondary text-center leading-none">How <span class="text-primary">it works</span></p>
 
     <div class="flex flex-wrap justify-center items-center gap-y-16 relative mt-14 md:mt-32 lg:-mx-3">
-        <div class="hidden md:block absolute bg-red text-white font-bold text-lg leading-none px-7 py-5 -top-16 lg:left-10 xl:-left-28 -rotate-[20deg] z-50">
-            unlike the previous hover animation, this box<br />
-            stays to get attention to book or call
-        </div>
-
         <div class="w-full md:w-1/2 xl:w-3/12 md:px-3">
             <div class="bg-white shadow-lg rounded-10 py-10 px-8 flex flex-col items-center justify-between text-center gap-7 relative z-40">
                 <svg width="96" height="80" viewBox="0 0 96 80" fill="none" xmlns="http://www.w3.org/2000/svg">
