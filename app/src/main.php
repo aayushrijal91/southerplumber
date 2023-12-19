@@ -761,7 +761,7 @@
             <div class="w-full xl:w-fit xl:flex-1 text-center px-4 lg:px-16 py-10 order-1 xl:order-2">
                 <p class="capitalize text-4xl md:text-5xl lg:text-64 font-merge text-white text-center leading-none"><span class="text-orange">Book Online</span> Today & Claim $50 Off</p>
 
-                <form action="./src/form" method="POST" class="mt-14 lg:mt-20 flex flex-wrap lg:-mx-3 gap-y-4 md:gap-y-7">
+                <form action="./src/form" id="mainForm" method="POST" class="mt-14 lg:mt-20 flex flex-wrap lg:-mx-3 gap-y-4 md:gap-y-7">
                     <input type="hidden" name="token" id="recaptchaResponse" class="recaptchaResponse" />
 
                     <div class="w-full md:w-1/2 md:px-2 lg:px-3">
@@ -773,7 +773,8 @@
                     </div>
 
                     <div class="w-full md:w-1/2 md:px-2 lg:px-3">
-                        <input type="tel" name="phone" class="form-control" placeholder="Phone Number" required />
+                        <input type="tel" name="phone" id="phoneNumber" class="form-control" placeholder="Phone Number" required />
+                        <p class="text-sm text-red pt-2 hidden text-start" id="phoneError">Invalid Phone Number</p>
                     </div>
 
                     <div class="w-full md:w-1/2 md:px-2 lg:px-3">
