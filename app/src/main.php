@@ -762,6 +762,8 @@
                 <p class="capitalize text-4xl md:text-5xl lg:text-64 font-merge text-white text-center leading-none"><span class="text-orange">Book Online</span> Today & Claim $50 Off</p>
 
                 <form action="./src/form" method="POST" class="mt-14 lg:mt-20 flex flex-wrap lg:-mx-3 gap-y-4 md:gap-y-7">
+                    <input type="hidden" name="token" id="recaptchaResponse" class="recaptchaResponse" />
+
                     <div class="w-full md:w-1/2 md:px-2 lg:px-3">
                         <input type="text" name="name" class="form-control" placeholder="Full Name" required />
                     </div>
