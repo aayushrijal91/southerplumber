@@ -99,7 +99,7 @@
 
             <div class="w-fit flex flex-wrap gap-3 mt-10 md:mt-20">
                 <a href="#form" class="w-fit flex items-center rounded-lg leading-none shadow-md bg-orange text-white font-bold h-[53px] px-7">Book Online</a>
-                <a href="tel:<?= $phone_number ?>" class="w-fit flex items-center rounded-lg leading-none shadow-md bg-secondary text-white font-bold h-[53px] px-7">Call Us Today</a>
+                <a href="tel:<?= $phone_number ?>" class="w-fit flex items-center rounded-lg leading-none shadow-md bg-secondary text-white font-bold h-[53px] px-7">Call <?= $phone_number ?></a>
             </div>
         </div>
     </div>
