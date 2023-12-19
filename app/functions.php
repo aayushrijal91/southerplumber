@@ -1,12 +1,12 @@
 <?php
 include __DIR__ . '/env.php';
 
-$site = "Southern Plumbers";
+$site = "Southern Plumber";
 $phone_number = "03 9888 8898";
 $admin_email = 'info@oncallplumber.com.au';
 // $admin_email = 'arijal@aiims.com.au';
 $bcc_email = "";
-$no_reply_email = 'info@website.com.au';
+$no_reply_email = 'info@oncallplumber.com.au';
 $recaptcha_client_secret = $client_secret;
 $recaptcha_server_secret = $server_secret;
 
